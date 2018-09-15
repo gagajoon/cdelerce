@@ -477,7 +477,6 @@ template {
         transform: translate3d(0, -4px, 0);
     }
 }
-
 .bounce {
     animation-name: bounce;
     transform-origin: center bottom;
@@ -491,7 +490,6 @@ template {
         opacity: 0;
     }
 }
-
 .flash {
     animation-name: flash;
 }
@@ -508,7 +506,6 @@ template {
         transform: scale3d(1, 1, 1);
     }
 }
-
 .pulse {
     animation-name: pulse;
 }
@@ -536,7 +533,6 @@ template {
         transform: scale3d(1, 1, 1);
     }
 }
-
 .rubberBand {
     animation-name: rubberBand;
 }
@@ -552,7 +548,6 @@ template {
         transform: translate3d(10px, 0, 0);
     }
 }
-
 .shake {
     animation-name: shake;
 }
@@ -577,7 +572,6 @@ template {
         transform: translateX(0);
     }
 }
-
 .headShake {
     animation-timing-function: ease-in-out;
     animation-name: headShake;
@@ -600,7 +594,6 @@ template {
         transform: rotate3d(0, 0, 1, 0deg);
     }
 }
-
 .swing {
     transform-origin: top center;
     animation-name: swing;
@@ -623,7 +616,6 @@ template {
         transform: scale3d(1, 1, 1);
     }
 }
-
 .tada {
     animation-name: tada;
 }
@@ -652,7 +644,6 @@ template {
         transform: none;
     }
 }
-
 .wobble {
     animation-name: wobble;
 }
@@ -683,7 +674,6 @@ template {
         transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
     }
 }
-
 .jello {
     animation-name: jello;
     transform-origin: center;
@@ -715,7 +705,6 @@ template {
         transform: scale3d(1, 1, 1);
     }
 }
-
 .bounceIn {
     animation-name: bounceIn;
 }
@@ -742,7 +731,6 @@ template {
         transform: none;
     }
 }
-
 .bounceInDown {
     animation-name: bounceInDown;
 }
@@ -769,7 +757,6 @@ template {
         transform: none;
     }
 }
-
 .bounceInLeft {
     animation-name: bounceInLeft;
 }
@@ -796,7 +783,6 @@ template {
         transform: none;
     }
 }
-
 .bounceInRight {
     animation-name: bounceInRight;
 }
@@ -823,7 +809,6 @@ template {
         transform: translate3d(0, 0, 0);
     }
 }
-
 .bounceInUp {
     animation-name: bounceInUp;
 }
@@ -841,7 +826,6 @@ template {
         transform: scale3d(0.3, 0.3, 0.3);
     }
 }
-
 .bounceOut {
     animation-name: bounceOut;
 }
@@ -859,7 +843,6 @@ template {
         transform: translate3d(0, 2000px, 0);
     }
 }
-
 .bounceOutDown {
     animation-name: bounceOutDown;
 }
@@ -874,7 +857,6 @@ template {
         transform: translate3d(-2000px, 0, 0);
     }
 }
-
 .bounceOutLeft {
     animation-name: bounceOutLeft;
 }
@@ -889,7 +871,6 @@ template {
         transform: translate3d(2000px, 0, 0);
     }
 }
-
 .bounceOutRight {
     animation-name: bounceOutRight;
 }
@@ -907,7 +888,6 @@ template {
         transform: translate3d(0, -2000px, 0);
     }
 }
-
 .bounceOutUp {
     animation-name: bounceOutUp;
 }
@@ -920,7 +900,6 @@ template {
         opacity: 1;
     }
 }
-
 .fadeIn {
     animation-name: fadeIn;
 }
@@ -935,7 +914,6 @@ template {
         transform: none;
     }
 }
-
 .fadeInDown {
     animation-name: fadeInDown;
 }
@@ -950,7 +928,6 @@ template {
         transform: none;
     }
 }
-
 .fadeInDownBig {
     animation-name: fadeInDownBig;
 }
@@ -965,7 +942,6 @@ template {
         transform: none;
     }
 }
-
 .fadeInLeft {
     animation-name: fadeInLeft;
 }
@@ -980,7 +956,6 @@ template {
         transform: none;
     }
 }
-
 .fadeInLeftBig {
     animation-name: fadeInLeftBig;
 }
@@ -995,7 +970,6 @@ template {
         transform: none;
     }
 }
-
 .fadeInRight {
     animation-name: fadeInRight;
 }
@@ -1010,7 +984,6 @@ template {
         transform: none;
     }
 }
-
 .fadeInRightBig {
     animation-name: fadeInRightBig;
 }
@@ -1025,7 +998,6 @@ template {
         transform: none;
     }
 }
-
 .fadeInUp {
     animation-name: fadeInUp;
 }
@@ -1040,7 +1012,6 @@ template {
         transform: none;
     }
 }
-
 .fadeInUpBig {
     animation-name: fadeInUpBig;
 }
@@ -1053,7 +1024,6 @@ template {
         opacity: 0;
     }
 }
-
 .fadeOut {
     animation-name: fadeOut;
 }
@@ -1067,7 +1037,6 @@ template {
         transform: translate3d(0, 100%, 0);
     }
 }
-
 .fadeOutDown {
     animation-name: fadeOutDown;
 }
@@ -1081,7 +1050,6 @@ template {
         transform: translate3d(0, 2000px, 0);
     }
 }
-
 .fadeOutDownBig {
     animation-name: fadeOutDownBig;
 }
@@ -1095,7 +1063,6 @@ template {
         transform: translate3d(-100%, 0, 0);
     }
 }
-
 .fadeOutLeft {
     animation-name: fadeOutLeft;
 }
@@ -1109,7 +1076,6 @@ template {
         transform: translate3d(-2000px, 0, 0);
     }
 }
-
 .fadeOutLeftBig {
     animation-name: fadeOutLeftBig;
 }
@@ -1123,7 +1089,6 @@ template {
         transform: translate3d(100%, 0, 0);
     }
 }
-
 .fadeOutRight {
     animation-name: fadeOutRight;
 }
@@ -1137,7 +1102,6 @@ template {
         transform: translate3d(2000px, 0, 0);
     }
 }
-
 .fadeOutRightBig {
     animation-name: fadeOutRightBig;
 }
@@ -1151,7 +1115,6 @@ template {
         transform: translate3d(0, -100%, 0);
     }
 }
-
 .fadeOutUp {
     animation-name: fadeOutUp;
 }
@@ -1165,7 +1128,6 @@ template {
         transform: translate3d(0, -2000px, 0);
     }
 }
-
 .fadeOutUpBig {
     animation-name: fadeOutUpBig;
 }
@@ -1192,7 +1154,6 @@ template {
         animation-timing-function: ease-in;
     }
 }
-
 .animated.flip {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
@@ -1220,7 +1181,6 @@ template {
         transform: perspective(400px);
     }
 }
-
 .flipInX {
     -webkit-backface-visibility: visible !important;
     backface-visibility: visible !important;
@@ -1248,7 +1208,6 @@ template {
         transform: perspective(400px);
     }
 }
-
 .flipInY {
     -webkit-backface-visibility: visible !important;
     backface-visibility: visible !important;
@@ -1268,7 +1227,6 @@ template {
         opacity: 0;
     }
 }
-
 .flipOutX {
     animation-name: flipOutX;
     -webkit-backface-visibility: visible !important;
@@ -1288,7 +1246,6 @@ template {
         opacity: 0;
     }
 }
-
 .flipOutY {
     -webkit-backface-visibility: visible !important;
     backface-visibility: visible !important;
@@ -1313,7 +1270,6 @@ template {
         opacity: 1;
     }
 }
-
 .lightSpeedIn {
     animation-name: lightSpeedIn;
     animation-timing-function: ease-out;
@@ -1328,7 +1284,6 @@ template {
         opacity: 0;
     }
 }
-
 .lightSpeedOut {
     animation-name: lightSpeedOut;
     animation-timing-function: ease-in;
@@ -1346,7 +1301,6 @@ template {
         opacity: 1;
     }
 }
-
 .rotateIn {
     animation-name: rotateIn;
 }
@@ -1363,7 +1317,6 @@ template {
         opacity: 1;
     }
 }
-
 .rotateInDownLeft {
     animation-name: rotateInDownLeft;
 }
@@ -1380,7 +1333,6 @@ template {
         opacity: 1;
     }
 }
-
 .rotateInDownRight {
     animation-name: rotateInDownRight;
 }
@@ -1397,7 +1349,6 @@ template {
         opacity: 1;
     }
 }
-
 .rotateInUpLeft {
     animation-name: rotateInUpLeft;
 }
@@ -1414,7 +1365,6 @@ template {
         opacity: 1;
     }
 }
-
 .rotateInUpRight {
     animation-name: rotateInUpRight;
 }
@@ -1430,7 +1380,6 @@ template {
         opacity: 0;
     }
 }
-
 .rotateOut {
     animation-name: rotateOut;
 }
@@ -1446,7 +1395,6 @@ template {
         opacity: 0;
     }
 }
-
 .rotateOutDownLeft {
     animation-name: rotateOutDownLeft;
 }
@@ -1462,7 +1410,6 @@ template {
         opacity: 0;
     }
 }
-
 .rotateOutDownRight {
     animation-name: rotateOutDownRight;
 }
@@ -1478,7 +1425,6 @@ template {
         opacity: 0;
     }
 }
-
 .rotateOutUpLeft {
     animation-name: rotateOutUpLeft;
 }
@@ -1494,7 +1440,6 @@ template {
         opacity: 0;
     }
 }
-
 .rotateOutUpRight {
     animation-name: rotateOutUpRight;
 }
@@ -1520,7 +1465,6 @@ template {
         opacity: 0;
     }
 }
-
 .hinge {
     animation-name: hinge;
 }
@@ -1542,7 +1486,6 @@ template {
         transform: scale(1);
     }
 }
-
 .jackInTheBox {
     animation-name: jackInTheBox;
 }
@@ -1558,7 +1501,6 @@ template {
         transform: none;
     }
 }
-
 .rollIn {
     animation-name: rollIn;
 }
@@ -1573,7 +1515,6 @@ template {
         transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
     }
 }
-
 .rollOut {
     animation-name: rollOut;
 }
@@ -1587,7 +1528,6 @@ template {
         opacity: 1;
     }
 }
-
 .zoomIn {
     animation-name: zoomIn;
 }
@@ -1604,7 +1544,6 @@ template {
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
 }
-
 .zoomInDown {
     animation-name: zoomInDown;
 }
@@ -1621,7 +1560,6 @@ template {
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
 }
-
 .zoomInLeft {
     animation-name: zoomInLeft;
 }
@@ -1638,7 +1576,6 @@ template {
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
 }
-
 .zoomInRight {
     animation-name: zoomInRight;
 }
@@ -1655,7 +1592,6 @@ template {
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
 }
-
 .zoomInUp {
     animation-name: zoomInUp;
 }
@@ -1672,7 +1608,6 @@ template {
         opacity: 0;
     }
 }
-
 .zoomOut {
     animation-name: zoomOut;
 }
@@ -1690,7 +1625,6 @@ template {
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
 }
-
 .zoomOutDown {
     animation-name: zoomOutDown;
 }
@@ -1706,7 +1640,6 @@ template {
         transform-origin: left center;
     }
 }
-
 .zoomOutLeft {
     animation-name: zoomOutLeft;
 }
@@ -1722,7 +1655,6 @@ template {
         transform-origin: right center;
     }
 }
-
 .zoomOutRight {
     animation-name: zoomOutRight;
 }
@@ -1740,7 +1672,6 @@ template {
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
 }
-
 .zoomOutUp {
     animation-name: zoomOutUp;
 }
@@ -1754,7 +1685,6 @@ template {
         transform: translate3d(0, 0, 0);
     }
 }
-
 .slideInDown {
     animation-name: slideInDown;
 }
@@ -1768,7 +1698,6 @@ template {
         transform: translate3d(0, 0, 0);
     }
 }
-
 .slideInLeft {
     animation-name: slideInLeft;
 }
@@ -1782,7 +1711,6 @@ template {
         transform: translate3d(0, 0, 0);
     }
 }
-
 .slideInRight {
     animation-name: slideInRight;
 }
@@ -1796,7 +1724,6 @@ template {
         transform: translate3d(0, 0, 0);
     }
 }
-
 .slideInUp {
     animation-name: slideInUp;
 }
@@ -1810,7 +1737,6 @@ template {
         transform: translate3d(0, 100%, 0);
     }
 }
-
 .slideOutDown {
     animation-name: slideOutDown;
 }
@@ -1824,7 +1750,6 @@ template {
         transform: translate3d(-100%, 0, 0);
     }
 }
-
 .slideOutLeft {
     animation-name: slideOutLeft;
 }
@@ -1838,7 +1763,6 @@ template {
         transform: translate3d(100%, 0, 0);
     }
 }
-
 .slideOutRight {
     animation-name: slideOutRight;
 }
@@ -1852,7 +1776,6 @@ template {
         transform: translate3d(0, -100%, 0);
     }
 }
-
 .slideOutUp {
     animation-name: slideOutUp;
 }
@@ -2231,7 +2154,6 @@ blockquote {
     margin: 0 0 1.75rem;
     color: #333333;
 }
-
 blockquote p {
     color: #333333;
     font-size: 1.2rem;
@@ -2271,7 +2193,6 @@ cite {
     padding-left: 0.5rem;
     font-weight: 700;
 }
-
 .button_back:hover {
     text-decoration: underline;
 }
@@ -2293,7 +2214,6 @@ cite {
     background-color: #440506;
     z-index: 1;
 }
-
 .main_header .logo {
     color: #ffffff;
     margin: 0;
@@ -2301,7 +2221,6 @@ cite {
     text-decoration: none;
     font-weight: 700;
 }
-
 .main_header nav a {
     color: #ffffff;
     text-decoration: none;
@@ -2311,21 +2230,23 @@ cite {
 #banner {
     position: relative;
 }
-
 #banner .content {
     padding-top: 2rem;
 }
 
+#banner .content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #banner .content .title, #banner .content .sub_title {
     text-align: center;
     color: #000000;
 }
-
 #banner .content .title {
     font-size: 3.5rem;
     margin: 0 0 1rem 0;
 }
-
 #banner .content .sub_title {
     font-weight: 400;
     font-size: 1.35rem;
@@ -2336,7 +2257,6 @@ cite {
 .chapters {
     padding: 2rem 0;
 }
-
 .chapters .chapter {
     position: relative;
     float: left;
@@ -2345,37 +2265,30 @@ cite {
     overflow: hidden;
     transition: transform 0.4s;
 }
-
 .chapters .chapter a {
     text-decoration: none;
 }
-
 .chapters .chapter img {
     width: 100%;
     vertical-align: middle;
     transition: all 0.4s;
 }
-
 .chapters .chapter img:hover {
     transform: scale(1.5);
 }
-
 .chapters .chapter_inner {
     position: absolute;
     left: 2.5%;
     bottom: 10%;
 }
-
 .chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title {
     color: #ffffff;
 }
-
 .chapters .chapter_inner .chapter_number {
     font-size: 0.9rem;
     text-transform: uppercase;
     margin: 0 0 1rem 0;
 }
-
 .chapters .chapter_inner .chapter_number::after {
     content: "";
     display: block;
@@ -2383,7 +2296,6 @@ cite {
     margin-top: 0.3rem;
     border-top: 3px solid #c25b6c;
 }
-
 .chapters .chapter_inner .chapter_title {
     font-size: 1.75rem;
     font-weight: 400;
@@ -2394,25 +2306,20 @@ cite {
     padding: 2rem 0 6rem;
     text-align: center;
 }
-
 .pagination a, .pagination span {
     padding: 0.5rem 1rem;
     display: inline-block;
     color: #6e6e6e;
 }
-
 .pagination a {
     text-decoration: none;
 }
-
 .pagination a:hover {
     color: #c0334a;
 }
-
 .pagination .active {
     border-bottom: 1px solid #6e6e6e;
 }
-
 .pagination .active:hover {
     color: #6e6e6e;
 }
@@ -2434,15 +2341,12 @@ cite {
     z-index: 10;
     opacity: 0.5;
 }
-
 .top i {
     line-height: 0;
 }
-
 .top.up {
     right: 30px;
 }
-
 .top:hover {
     color: #ffffff;
     background-color: #c0334a;
@@ -2460,12 +2364,10 @@ cite {
     text-align: center;
     border-bottom: 1px solid #333333;
 }
-
 .social_footer li {
     display: inline-block;
     margin-left: 0.5rem;
 }
-
 .social_footer a {
     color: #7b7b7b;
     display: inline-block;
@@ -2477,7 +2379,6 @@ cite {
     background-color: #ffffff;
     transition: all 0.35s ease-in-out;
 }
-
 .social_footer a:hover {
     background-color: #c0334a;
     color: #ffffff;
@@ -2487,20 +2388,17 @@ cite {
     padding: 1rem 0;
     text-align: center;
 }
-
 .copyright p {
     color: #ffffff;
     font-size: 0.7rem;
     text-transform: uppercase;
     margin: 0;
 }
-
 .copyright a {
     text-decoration: none;
     color: #c0334a;
     transition: all 0.35s ease-in-out;
 }
-
 .copyright a:hover {
     color: rgba(192, 51, 74, 0.75);
 }
@@ -2521,23 +2419,19 @@ cite {
 .post {
     background-color: #ffffff;
 }
-
 .post header {
     position: relative;
     overflow: hidden;
     margin-bottom: 2rem;
 }
-
 .post header img {
     width: 100%;
     vertical-align: middle;
 }
-
 .post header .post_description {
     left: 0;
     bottom: 0;
 }
-
 .post header .post_meta {
     display: inline-block;
     text-transform: uppercase;
@@ -2547,7 +2441,6 @@ cite {
     color: #ffffff;
     background-color: rgba(210, 84, 105, 0.4);
 }
-
 .post header .post_title {
     padding: 1rem;
     font-size: 2rem;
@@ -2561,13 +2454,11 @@ cite {
     background-color: #ffffff;
     border-top: 2px solid #6e6e6e;
 }
-
 .post_footer span {
     text-transform: uppercase;
     font-size: 0.8rem;
     color: #525c65;
 }
-
 .post_footer a {
     text-decoration: none;
     margin-left: 0.1rem;
@@ -2578,16 +2469,13 @@ cite {
     display: inline-block;
     transition: all 0.35s ease-in-out;
 }
-
 .post_footer a:hover {
     background-color: #d25469;
     color: #ffffff;
 }
-
 .post_footer .post_share {
     float: left;
 }
-
 .post_footer .post_share a {
     font-size: 0.9rem;
 }
@@ -2604,41 +2492,34 @@ cite {
     width: 100%;
     background-color: #EDA5A6;
 }
-
 .about .author {
     border-radius: 0.5rem;
     margin-bottom: 1rem;
 }
-
 .about .author .author_image {
     float: none;
     display: block;
     margin: 0 auto 1.75rem;
 }
-
 .about .author .author_info {
     padding: 0;
     text-align: center;
 }
-
 .about .about_social {
     border-radius: 0.5rem;
     padding-bottom: 1rem;
     overflow: hidden;
 }
-
 .about .about_social .social_footer {
     padding: 0;
     margin: 0;
     border: none;
 }
-
 .about .about_social .social_footer a {
     font-size: 1rem;
     color: #EDA5A6;
     background-color: #ffffff;
 }
-
 .about .about_social .social_footer a:hover {
     color: #c0334a;
 }
@@ -2648,7 +2529,6 @@ cite {
     margin-bottom: 1.5rem;
     background-color: #ffffff;
 }
-
 .author .author_image {
     float: left;
     display: inline-block;
@@ -2658,30 +2538,24 @@ cite {
     overflow: hidden;
     margin-right: 2rem;
 }
-
 .author .author_image img {
     width: 100%;
 }
-
 .author .author_info {
     padding-left: 8rem;
 }
-
 .author .author_info .author_name {
     font-size: 2rem;
     color: #000000;
 }
-
 .author .author_info .author_title {
     font-size: 1rem;
     margin-top: 0;
     color: #525c65;
 }
-
 .author .author_info .author_title::before, .author .author_info .author_title::after {
     content: " — ";
 }
-
 .author .author_info p {
     padding: 0 1rem;
 }
@@ -2703,28 +2577,23 @@ cite {
     width: 960px;
     max-width: 100%;
 }
-
 .container_contact .form_title {
     text-align: center;
     text-transform: uppercase;
     font-size: 1.2rem;
     color: #ffffff;
 }
-
 .container_contact .form_title::before, .container_contact .form_title::after {
     content: " — ";
 }
-
 .container_contact .form {
     width: 90%;
     margin: 0 auto;
 }
-
 .container_contact .form .form_group {
     margin-top: 3rem;
     text-align: center;
 }
-
 .container_contact .form input, .container_contact .form textarea {
     width: 100%;
     padding: 1rem;
@@ -2733,11 +2602,9 @@ cite {
     font-weight: 300;
     transition: all 0.35s ease-in-out;
 }
-
 .container_contact .form input:focus, .container_contact .form textarea:focus {
     background-color: #c0334a;
 }
-
 .container_contact .form .form_btn {
     width: inherit;
     color: #ffffff;
@@ -2750,12 +2617,10 @@ cite {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-
 .container_contact .form .form_btn:hover {
     background-color: #c0334a;
     color: #ffffff;
 }
-
 .container_contact .form .form_btn:active {
     transform: translateY(2px);
 }
@@ -2793,7 +2658,6 @@ cite {
         transform: translateY(0);
     }
 }
-
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -2804,7 +2668,6 @@ cite {
         transform: translateY(0);
     }
 }
-
 @media only screen and (max-width: 960px) {
     .chapters {
         padding: 2rem 0;
@@ -2815,7 +2678,6 @@ cite {
         margin: 0 0.5% 1% 0.5%;
     }
 }
-
 @media only screen and (max-width: 768px) {
     #banner .content .title {
         font-size: 2.5rem;
@@ -2912,7 +2774,6 @@ cite {
         font-size: 0.7rem;
     }
 }
-
 @media only screen and (max-width: 600px) {
     .chapters {
         padding: 2rem 0;
@@ -2940,7 +2801,6 @@ cite {
         font-size: 1rem;
     }
 }
-
 @media only screen and (max-width: 550px) {
     .post header .post_meta {
         padding: 0.3rem 1rem;
@@ -2999,7 +2859,6 @@ cite {
         font-size: 1.1rem;
     }
 }
-
 @media only screen and (max-width: 320px) {
     .post header .post_meta {
         padding: 0.1rem 0.8rem;
