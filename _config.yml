@@ -1,0 +1,48 @@
+logo: "CD" # add logo name
+title: Célia Delerce
+description: > # this means to ignore newlines until "permalink:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Banner settings
+video: # mountains.mp4 - add banner video. Add your video file to the folder video
+banner-title: "Célia Delerce" # add banner title
+banner-desc: "Retouche de l'image" # add banner description
+
+# Author settings
+author-pic: celia.png # your photo
+author-name: "Célia Delerce" # your name
+about-title: "RETOUCHE DE L'IMAGE" # your title
+about-content: >
+  <p>Diplômée d'un BTS photographie en 2009 au lycée Auguste Renoir, j'ai débuté ma carrière entant qu'assistante plateau, lumière, numérique et retouche auprès du photographe Hervé Haddad et ce durant deux ans et demi. Cette première expérience m'a permis d'explorer le domaine de la photographie sous divers angles, et ainsi d'enrichir ma connaissance du métier et de ses multiples aspects.</p>
+  <p>C'est en 2011 que j'ai décidé de quitter le studio. J'ai alors fait mes débuts chez Chic Paris entant que retoucheuse freelance. Par la suite, j'ai également collaboré avec Dtouch, Odalisque, Aedtit ainsi qu'avec plusieurs photographes en direct. Formée et motivée, je grattais, grattais, grattais, forgeant ainsi mon expérience dans le domaine de la retouche.</p>
+  <p>Je suis graphiste spécialisée en publicité, photo-montage, cheveux, beauté, édito et mode.</p>
+  <p>Aujourd'hui, après neuf années de travail, je suis toujours à la recherche de nouvelles expériences dans le but d'améliorer mes compétences. Attentive et motivée, je suis plus que jamais passionnée par mon métier.</p>
+email: celia.delerce@gmail.com # your email
+
+# Social link
+linkedin_url: "https://www.linkedin.com/in/c%C3%A9lia-delerce-6674815b/" # add url link
+twitter_url: # add url link
+instagram_url: # add url link
+facebook_url: # add url link
+
+# Tracker
+analytics:
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
+
+include: [_pages]
+exclude: ["*.iml"]
+

@@ -1,0 +1,24 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+<section class="about">
+	<a href="{{site.baseurl}}/" class="button_back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>
+	<div class="about_box">
+		<div class="author">
+			<div class="author_image">
+				<img src="{{site.baseurl}}/assets/img/{{site.author-pic}}" alt="Author image">
+			</div>
+			<div class="author_info">
+				<h2 class="author_name">{% if site.author-name %}{{site.author-name}}{% endif %}</h2>
+				<h3 class="author_title">{% if site.about-title %}{{site.about-title}}{% endif %}</h3>
+				<p class="author_content">{% if site.about-content %}{{site.about-content}}{% endif %}</p>
+			</div>
+		</div>
+
+		<div class="about_social">
+			{% include social_footer.html %}
+		</div>
+	</div> <!-- End Section Author -->
+</section>

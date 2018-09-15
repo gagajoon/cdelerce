@@ -1,0 +1,65 @@
+// - - - - - - - - - - About Styles - - - - - - - - - - //
+.about_box
+  border-radius: 0.5rem
+  width: 600px
+  max-width: 90%
+  margin: auto
+
+.about
+  position: relative
+  width: 100%
+  background-color: $background-about
+  .author
+    border-radius: 0.5rem
+    margin-bottom: 1rem
+    .author_image
+      float: none
+      display: block
+      margin: 0 auto 1.75rem
+    .author_info
+      padding: 0
+      text-align: center
+
+  .about_social
+    border-radius: 0.5rem
+    padding-bottom: 1rem
+    overflow: hidden
+    .social_footer
+      padding: 0
+      margin: 0
+      border: none
+      a
+        font-size: 1rem
+        color: $background-about
+        background-color: $background-author
+        &:hover
+          color: $highlight
+
+.author
+  padding: 2rem 0
+  margin-bottom: 1.5rem
+  background-color: $background-author
+  .author_image
+    float: left
+    display: inline-block
+    border-radius: 50%
+    width: 100px
+    height: 100px
+    overflow: hidden
+    margin-right: 2rem
+    img
+      width: 100%
+  .author_info
+    padding-left: 8rem
+    .author_name
+      font-size: 2rem
+      color: $text_color-author-title
+    .author_title
+      font-size: 1rem
+      margin-top: 0
+      color: $text_color-author-desc
+      &::before,
+      &::after
+        content: " #{'\2014'} "
+    p
+      padding: 0 1rem

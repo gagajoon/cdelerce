@@ -1,0 +1,13 @@
+---
+layout: main
+---
+
+{% for post in paginator.posts %}
+<div class="chapter">
+	<a href="{{post.url | prepend: site.baseurl}}">
+		{% if post.img %}
+		<img src={{ "/gallery/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+		{% endif %}
+	</a>
+</div>
+{% endfor %}

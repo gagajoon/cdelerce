@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<main class="post_content">
+	<article class="post">
+		<header>
+			<div class="post_image magnify">
+				<div class="magnify-large"></div>
+				<img class="magnify-small" src={{ "/gallery/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+			</div>
+			<div class="post_description">
+				<h1 class="post_title">{{page.title}}</h1>
+			</div>
+		</header> <!-- End Header -->
+
+		<div class="entry_content">
+			{{page.content | markdownify}}
+		</div>
+
+		<div class="post_wrapper">
+			<footer class="post_footer cf">
+				<div class="post_share">
+					<span>Share:</span>
+					<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+			</footer>
+		</div>
+	</article> <!-- End Section Post -->
+
+</main> <!-- End Section Post Content -->
+<img class="magnify-native" src={{ "/gallery/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+
+{% include footer.html %}
