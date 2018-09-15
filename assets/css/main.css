@@ -8,12 +8,12 @@
  *    IE on Windows Phone and in iOS.
  */
 html {
-    line-height: 1.15;
-    /* 1 */
-    -ms-text-size-adjust: 100%;
-    /* 2 */
-    -webkit-text-size-adjust: 100%;
-    /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -22,7 +22,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-    margin: 0;
+  margin: 0;
 }
 
 /**
@@ -34,7 +34,7 @@ footer,
 header,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 /**
@@ -42,8 +42,8 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -55,15 +55,15 @@ h1 {
 figcaption,
 figure,
 main {
-    /* 1 */
-    display: block;
+  /* 1 */
+  display: block;
 }
 
 /**
  * Add the correct margin in IE 8.
  */
 figure {
-    margin: 1em 40px;
+  margin: 1em 40px;
 }
 
 /**
@@ -71,12 +71,12 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-    box-sizing: content-box;
-    /* 1 */
-    height: 0;
-    /* 1 */
-    overflow: visible;
-    /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -84,10 +84,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-    font-family: monospace, monospace;
-    /* 1 */
-    font-size: 1em;
-    /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -97,10 +97,10 @@ pre {
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 a {
-    background-color: transparent;
-    /* 1 */
-    -webkit-text-decoration-skip: objects;
-    /* 2 */
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
 }
 
 /**
@@ -108,12 +108,12 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-    border-bottom: none;
-    /* 1 */
-    text-decoration: underline;
-    /* 2 */
-    text-decoration: underline dotted;
-    /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -121,7 +121,7 @@ abbr[title] {
  */
 b,
 strong {
-    font-weight: inherit;
+  font-weight: inherit;
 }
 
 /**
@@ -129,7 +129,7 @@ strong {
  */
 b,
 strong {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 /**
@@ -139,32 +139,32 @@ strong {
 code,
 kbd,
 samp {
-    font-family: monospace, monospace;
-    /* 1 */
-    font-size: 1em;
-    /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
  * Add the correct font style in Android 4.3-.
  */
 dfn {
-    font-style: italic;
+  font-style: italic;
 }
 
 /**
  * Add the correct background and color in IE 9-.
  */
 mark {
-    background-color: #ff0;
-    color: #000;
+  background-color: #ff0;
+  color: #000;
 }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 /**
@@ -173,18 +173,18 @@ small {
  */
 sub,
 sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sub {
-    bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 sup {
-    top: -0.5em;
+  top: -0.5em;
 }
 
 /* Embedded content
@@ -194,29 +194,29 @@ sup {
  */
 audio,
 video {
-    display: inline-block;
+  display: inline-block;
 }
 
 /**
  * Add the correct display in iOS 4-7.
  */
 audio:not([controls]) {
-    display: none;
-    height: 0;
+  display: none;
+  height: 0;
 }
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
 img {
-    border-style: none;
+  border-style: none;
 }
 
 /**
  * Hide the overflow in IE.
  */
 svg:not(:root) {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /* Forms
@@ -230,14 +230,14 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: sans-serif;
-    /* 1 */
-    font-size: 100%;
-    /* 1 */
-    line-height: 1.15;
-    /* 1 */
-    margin: 0;
-    /* 2 */
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -246,8 +246,8 @@ textarea {
  */
 button,
 input {
-    /* 1 */
-    overflow: visible;
+  /* 1 */
+  overflow: visible;
 }
 
 /**
@@ -256,8 +256,8 @@ input {
  */
 button,
 select {
-    /* 1 */
-    text-transform: none;
+  /* 1 */
+  text-transform: none;
 }
 
 /**
@@ -269,8 +269,8 @@ button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance: button;
-    /* 2 */
+  -webkit-appearance: button;
+  /* 2 */
 }
 
 /**
@@ -280,8 +280,8 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
+  border-style: none;
+  padding: 0;
 }
 
 /**
@@ -291,14 +291,14 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
+  outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-    padding: 0.35em 0.75em 0.625em;
+  padding: 0.35em 0.75em 0.625em;
 }
 
 /**
@@ -308,18 +308,18 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-    box-sizing: border-box;
-    /* 1 */
-    color: inherit;
-    /* 2 */
-    display: table;
-    /* 1 */
-    max-width: 100%;
-    /* 1 */
-    padding: 0;
-    /* 3 */
-    white-space: normal;
-    /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -327,17 +327,17 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-    display: inline-block;
-    /* 1 */
-    vertical-align: baseline;
-    /* 2 */
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
 }
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
 textarea {
-    overflow: auto;
+  overflow: auto;
 }
 
 /**
@@ -346,10 +346,10 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-    box-sizing: border-box;
-    /* 1 */
-    padding: 0;
-    /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -357,7 +357,7 @@ textarea {
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-    height: auto;
+  height: auto;
 }
 
 /**
@@ -365,10 +365,10 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type="search"] {
-    -webkit-appearance: textfield;
-    /* 1 */
-    outline-offset: -2px;
-    /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -376,7 +376,7 @@ textarea {
  */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 /**
@@ -384,10 +384,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    /* 1 */
-    font: inherit;
-    /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -398,14 +398,14 @@ textarea {
  */
 details,
 menu {
-    display: block;
+  display: block;
 }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-    display: list-item;
+  display: list-item;
 }
 
 /* Scripting
@@ -414,14 +414,14 @@ summary {
  * Add the correct display in IE 9-.
  */
 canvas {
-    display: inline-block;
+  display: inline-block;
 }
 
 /**
  * Add the correct display in IE.
  */
 template {
-    display: none;
+  display: none;
 }
 
 /* Hidden
@@ -430,7 +430,7 @@ template {
  * Add the correct display in IE 10-.
  */
 [hidden] {
-    display: none;
+  display: none;
 }
 
 /*!
@@ -441,2196 +441,2232 @@ template {
  * Copyright (c) 2017 Daniel Eden
  */
 .animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 .animated.infinite {
-    animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .animated.hinge {
-    animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 .animated.flipOutX,
 .animated.flipOutY,
 .animated.bounceIn,
 .animated.bounceOut {
-    animation-duration: .75s;
+  animation-duration: .75s;
 }
 
 @keyframes bounce {
-    from, 20%, 53%, 80%, to {
-        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-        transform: translate3d(0, 0, 0);
-    }
-    40%, 43% {
-        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-        transform: translate3d(0, -30px, 0);
-    }
-    70% {
-        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-        transform: translate3d(0, -15px, 0);
-    }
-    90% {
-        transform: translate3d(0, -4px, 0);
-    }
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
 }
 .bounce {
-    animation-name: bounce;
-    transform-origin: center bottom;
+  animation-name: bounce;
+  transform-origin: center bottom;
 }
 
 @keyframes flash {
-    from, 50%, to {
-        opacity: 1;
-    }
-    25%, 75% {
-        opacity: 0;
-    }
+  from, 50%, to {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
 }
 .flash {
-    animation-name: flash;
+  animation-name: flash;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @keyframes pulse {
-    from {
-        transform: scale3d(1, 1, 1);
-    }
-    50% {
-        transform: scale3d(1.05, 1.05, 1.05);
-    }
-    to {
-        transform: scale3d(1, 1, 1);
-    }
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
 }
 .pulse {
-    animation-name: pulse;
+  animation-name: pulse;
 }
 
 @keyframes rubberBand {
-    from {
-        transform: scale3d(1, 1, 1);
-    }
-    30% {
-        transform: scale3d(1.25, 0.75, 1);
-    }
-    40% {
-        transform: scale3d(0.75, 1.25, 1);
-    }
-    50% {
-        transform: scale3d(1.15, 0.85, 1);
-    }
-    65% {
-        transform: scale3d(0.95, 1.05, 1);
-    }
-    75% {
-        transform: scale3d(1.05, 0.95, 1);
-    }
-    to {
-        transform: scale3d(1, 1, 1);
-    }
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
 }
 .rubberBand {
-    animation-name: rubberBand;
+  animation-name: rubberBand;
 }
 
 @keyframes shake {
-    from, to {
-        transform: translate3d(0, 0, 0);
-    }
-    10%, 30%, 50%, 70%, 90% {
-        transform: translate3d(-10px, 0, 0);
-    }
-    20%, 40%, 60%, 80% {
-        transform: translate3d(10px, 0, 0);
-    }
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
 }
 .shake {
-    animation-name: shake;
+  animation-name: shake;
 }
 
 @keyframes headShake {
-    0% {
-        transform: translateX(0);
-    }
-    6.5% {
-        transform: translateX(-6px) rotateY(-9deg);
-    }
-    18.5% {
-        transform: translateX(5px) rotateY(7deg);
-    }
-    31.5% {
-        transform: translateX(-3px) rotateY(-5deg);
-    }
-    43.5% {
-        transform: translateX(2px) rotateY(3deg);
-    }
-    50% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(0);
+  }
+  6.5% {
+    transform: translateX(-6px) rotateY(-9deg);
+  }
+  18.5% {
+    transform: translateX(5px) rotateY(7deg);
+  }
+  31.5% {
+    transform: translateX(-3px) rotateY(-5deg);
+  }
+  43.5% {
+    transform: translateX(2px) rotateY(3deg);
+  }
+  50% {
+    transform: translateX(0);
+  }
 }
 .headShake {
-    animation-timing-function: ease-in-out;
-    animation-name: headShake;
+  animation-timing-function: ease-in-out;
+  animation-name: headShake;
 }
 
 @keyframes swing {
-    20% {
-        transform: rotate3d(0, 0, 1, 15deg);
-    }
-    40% {
-        transform: rotate3d(0, 0, 1, -10deg);
-    }
-    60% {
-        transform: rotate3d(0, 0, 1, 5deg);
-    }
-    80% {
-        transform: rotate3d(0, 0, 1, -5deg);
-    }
-    to {
-        transform: rotate3d(0, 0, 1, 0deg);
-    }
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
 }
 .swing {
-    transform-origin: top center;
-    animation-name: swing;
+  transform-origin: top center;
+  animation-name: swing;
 }
 
 @keyframes tada {
-    from {
-        transform: scale3d(1, 1, 1);
-    }
-    10%, 20% {
-        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-    }
-    30%, 50%, 70%, 90% {
-        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    }
-    40%, 60%, 80% {
-        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    }
-    to {
-        transform: scale3d(1, 1, 1);
-    }
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  10%, 20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
 }
 .tada {
-    animation-name: tada;
+  animation-name: tada;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @keyframes wobble {
-    from {
-        transform: none;
-    }
-    15% {
-        transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
-    }
-    30% {
-        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
-    }
-    45% {
-        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
-    }
-    60% {
-        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
-    }
-    75% {
-        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
-    }
-    to {
-        transform: none;
-    }
+  from {
+    transform: none;
+  }
+  15% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    transform: none;
+  }
 }
 .wobble {
-    animation-name: wobble;
+  animation-name: wobble;
 }
 
 @keyframes jello {
-    from, 11.1%, to {
-        transform: none;
-    }
-    22.2% {
-        transform: skewX(-12.5deg) skewY(-12.5deg);
-    }
-    33.3% {
-        transform: skewX(6.25deg) skewY(6.25deg);
-    }
-    44.4% {
-        transform: skewX(-3.125deg) skewY(-3.125deg);
-    }
-    55.5% {
-        transform: skewX(1.5625deg) skewY(1.5625deg);
-    }
-    66.6% {
-        transform: skewX(-0.78125deg) skewY(-0.78125deg);
-    }
-    77.7% {
-        transform: skewX(0.390625deg) skewY(0.390625deg);
-    }
-    88.8% {
-        transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
-    }
+  from, 11.1%, to {
+    transform: none;
+  }
+  22.2% {
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+  33.3% {
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+  44.4% {
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+  55.5% {
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+  66.6% {
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+  77.7% {
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+  88.8% {
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
 }
 .jello {
-    animation-name: jello;
-    transform-origin: center;
+  animation-name: jello;
+  transform-origin: center;
 }
 
 @keyframes bounceIn {
-    from, 20%, 40%, 60%, 80%, to {
-        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-    0% {
-        opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
-    }
-    20% {
-        transform: scale3d(1.1, 1.1, 1.1);
-    }
-    40% {
-        transform: scale3d(0.9, 0.9, 0.9);
-    }
-    60% {
-        opacity: 1;
-        transform: scale3d(1.03, 1.03, 1.03);
-    }
-    80% {
-        transform: scale3d(0.97, 0.97, 0.97);
-    }
-    to {
-        opacity: 1;
-        transform: scale3d(1, 1, 1);
-    }
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
 }
 .bounceIn {
-    animation-name: bounceIn;
+  animation-name: bounceIn;
 }
 
 @keyframes bounceInDown {
-    from, 60%, 75%, 90%, to {
-        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-    0% {
-        opacity: 0;
-        transform: translate3d(0, -3000px, 0);
-    }
-    60% {
-        opacity: 1;
-        transform: translate3d(0, 25px, 0);
-    }
-    75% {
-        transform: translate3d(0, -10px, 0);
-    }
-    90% {
-        transform: translate3d(0, 5px, 0);
-    }
-    to {
-        transform: none;
-    }
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+  to {
+    transform: none;
+  }
 }
 .bounceInDown {
-    animation-name: bounceInDown;
+  animation-name: bounceInDown;
 }
 
 @keyframes bounceInLeft {
-    from, 60%, 75%, 90%, to {
-        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-    0% {
-        opacity: 0;
-        transform: translate3d(-3000px, 0, 0);
-    }
-    60% {
-        opacity: 1;
-        transform: translate3d(25px, 0, 0);
-    }
-    75% {
-        transform: translate3d(-10px, 0, 0);
-    }
-    90% {
-        transform: translate3d(5px, 0, 0);
-    }
-    to {
-        transform: none;
-    }
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+  to {
+    transform: none;
+  }
 }
 .bounceInLeft {
-    animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
 }
 
 @keyframes bounceInRight {
-    from, 60%, 75%, 90%, to {
-        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-    from {
-        opacity: 0;
-        transform: translate3d(3000px, 0, 0);
-    }
-    60% {
-        opacity: 1;
-        transform: translate3d(-25px, 0, 0);
-    }
-    75% {
-        transform: translate3d(10px, 0, 0);
-    }
-    90% {
-        transform: translate3d(-5px, 0, 0);
-    }
-    to {
-        transform: none;
-    }
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  from {
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+  }
+  75% {
+    transform: translate3d(10px, 0, 0);
+  }
+  90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+  to {
+    transform: none;
+  }
 }
 .bounceInRight {
-    animation-name: bounceInRight;
+  animation-name: bounceInRight;
 }
 
 @keyframes bounceInUp {
-    from, 60%, 75%, 90%, to {
-        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-    from {
-        opacity: 0;
-        transform: translate3d(0, 3000px, 0);
-    }
-    60% {
-        opacity: 1;
-        transform: translate3d(0, -20px, 0);
-    }
-    75% {
-        transform: translate3d(0, 10px, 0);
-    }
-    90% {
-        transform: translate3d(0, -5px, 0);
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-    }
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 .bounceInUp {
-    animation-name: bounceInUp;
+  animation-name: bounceInUp;
 }
 
 @keyframes bounceOut {
-    20% {
-        transform: scale3d(0.9, 0.9, 0.9);
-    }
-    50%, 55% {
-        opacity: 1;
-        transform: scale3d(1.1, 1.1, 1.1);
-    }
-    to {
-        opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
-    }
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  50%, 55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
 }
 .bounceOut {
-    animation-name: bounceOut;
+  animation-name: bounceOut;
 }
 
 @keyframes bounceOutDown {
-    20% {
-        transform: translate3d(0, 10px, 0);
-    }
-    40%, 45% {
-        opacity: 1;
-        transform: translate3d(0, -20px, 0);
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(0, 2000px, 0);
-    }
+  20% {
+    transform: translate3d(0, 10px, 0);
+  }
+  40%, 45% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
 }
 .bounceOutDown {
-    animation-name: bounceOutDown;
+  animation-name: bounceOutDown;
 }
 
 @keyframes bounceOutLeft {
-    20% {
-        opacity: 1;
-        transform: translate3d(20px, 0, 0);
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(-2000px, 0, 0);
-    }
+  20% {
+    opacity: 1;
+    transform: translate3d(20px, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  }
 }
 .bounceOutLeft {
-    animation-name: bounceOutLeft;
+  animation-name: bounceOutLeft;
 }
 
 @keyframes bounceOutRight {
-    20% {
-        opacity: 1;
-        transform: translate3d(-20px, 0, 0);
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(2000px, 0, 0);
-    }
+  20% {
+    opacity: 1;
+    transform: translate3d(-20px, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  }
 }
 .bounceOutRight {
-    animation-name: bounceOutRight;
+  animation-name: bounceOutRight;
 }
 
 @keyframes bounceOutUp {
-    20% {
-        transform: translate3d(0, -10px, 0);
-    }
-    40%, 45% {
-        opacity: 1;
-        transform: translate3d(0, 20px, 0);
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(0, -2000px, 0);
-    }
+  20% {
+    transform: translate3d(0, -10px, 0);
+  }
+  40%, 45% {
+    opacity: 1;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
 }
 .bounceOutUp {
-    animation-name: bounceOutUp;
+  animation-name: bounceOutUp;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .fadeIn {
-    animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 
 @keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -100%, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .fadeInDown {
-    animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
 
 @keyframes fadeInDownBig {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -2000px, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .fadeInDownBig {
-    animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
 }
 
 @keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translate3d(-100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .fadeInLeft {
-    animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
 }
 
 @keyframes fadeInLeftBig {
-    from {
-        opacity: 0;
-        transform: translate3d(-2000px, 0, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .fadeInLeftBig {
-    animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
 }
 
 @keyframes fadeInRight {
-    from {
-        opacity: 0;
-        transform: translate3d(100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .fadeInRight {
-    animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
 
 @keyframes fadeInRightBig {
-    from {
-        opacity: 0;
-        transform: translate3d(2000px, 0, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .fadeInRightBig {
-    animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
 }
 
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .fadeInUp {
-    animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 
 @keyframes fadeInUpBig {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 2000px, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .fadeInUpBig {
-    animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
 }
 
 @keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 .fadeOut {
-    animation-name: fadeOut;
+  animation-name: fadeOut;
 }
 
 @keyframes fadeOutDown {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
 }
 .fadeOutDown {
-    animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
 }
 
 @keyframes fadeOutDownBig {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(0, 2000px, 0);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
 }
 .fadeOutDownBig {
-    animation-name: fadeOutDownBig;
+  animation-name: fadeOutDownBig;
 }
 
 @keyframes fadeOutLeft {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(-100%, 0, 0);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
 }
 .fadeOutLeft {
-    animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
 }
 
 @keyframes fadeOutLeftBig {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(-2000px, 0, 0);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  }
 }
 .fadeOutLeftBig {
-    animation-name: fadeOutLeftBig;
+  animation-name: fadeOutLeftBig;
 }
 
 @keyframes fadeOutRight {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(100%, 0, 0);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
 }
 .fadeOutRight {
-    animation-name: fadeOutRight;
+  animation-name: fadeOutRight;
 }
 
 @keyframes fadeOutRightBig {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(2000px, 0, 0);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  }
 }
 .fadeOutRightBig {
-    animation-name: fadeOutRightBig;
+  animation-name: fadeOutRightBig;
 }
 
 @keyframes fadeOutUp {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(0, -100%, 0);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
 }
 .fadeOutUp {
-    animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
 }
 
 @keyframes fadeOutUpBig {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(0, -2000px, 0);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
 }
 .fadeOutUpBig {
-    animation-name: fadeOutUpBig;
+  animation-name: fadeOutUpBig;
 }
 
 @keyframes flip {
-    from {
-        transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
-        animation-timing-function: ease-out;
-    }
-    40% {
-        transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
-        animation-timing-function: ease-out;
-    }
-    50% {
-        transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
-        animation-timing-function: ease-in;
-    }
-    80% {
-        transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
-        animation-timing-function: ease-in;
-    }
-    to {
-        transform: perspective(400px);
-        animation-timing-function: ease-in;
-    }
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    animation-timing-function: ease-out;
+  }
+  40% {
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+    animation-timing-function: ease-in;
+  }
+  to {
+    transform: perspective(400px);
+    animation-timing-function: ease-in;
+  }
 }
 .animated.flip {
-    -webkit-backface-visibility: visible;
-    backface-visibility: visible;
-    animation-name: flip;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  animation-name: flip;
 }
 
 @keyframes flipInX {
-    from {
-        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-        animation-timing-function: ease-in;
-        opacity: 0;
-    }
-    40% {
-        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-        animation-timing-function: ease-in;
-    }
-    60% {
-        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-        opacity: 1;
-    }
-    80% {
-        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-    }
-    to {
-        transform: perspective(400px);
-    }
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+  to {
+    transform: perspective(400px);
+  }
 }
 .flipInX {
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
-    animation-name: flipInX;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInX;
 }
 
 @keyframes flipInY {
-    from {
-        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-        animation-timing-function: ease-in;
-        opacity: 0;
-    }
-    40% {
-        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
-        animation-timing-function: ease-in;
-    }
-    60% {
-        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
-        opacity: 1;
-    }
-    80% {
-        transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
-    }
-    to {
-        transform: perspective(400px);
-    }
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+  60% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+  to {
+    transform: perspective(400px);
+  }
 }
 .flipInY {
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
-    animation-name: flipInY;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInY;
 }
 
 @keyframes flipOutX {
-    from {
-        transform: perspective(400px);
-    }
-    30% {
-        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-        opacity: 1;
-    }
-    to {
-        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-        opacity: 0;
-    }
+  from {
+    transform: perspective(400px);
+  }
+  30% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1;
+  }
+  to {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0;
+  }
 }
 .flipOutX {
-    animation-name: flipOutX;
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
+  animation-name: flipOutX;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
 }
 
 @keyframes flipOutY {
-    from {
-        transform: perspective(400px);
-    }
-    30% {
-        transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
-        opacity: 1;
-    }
-    to {
-        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-        opacity: 0;
-    }
+  from {
+    transform: perspective(400px);
+  }
+  30% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    opacity: 1;
+  }
+  to {
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
 }
 .flipOutY {
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
-    animation-name: flipOutY;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipOutY;
 }
 
 @keyframes lightSpeedIn {
-    from {
-        transform: translate3d(100%, 0, 0) skewX(-30deg);
-        opacity: 0;
-    }
-    60% {
-        transform: skewX(20deg);
-        opacity: 1;
-    }
-    80% {
-        transform: skewX(-5deg);
-        opacity: 1;
-    }
-    to {
-        transform: none;
-        opacity: 1;
-    }
+  from {
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+  60% {
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+  80% {
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 .lightSpeedIn {
-    animation-name: lightSpeedIn;
-    animation-timing-function: ease-out;
+  animation-name: lightSpeedIn;
+  animation-timing-function: ease-out;
 }
 
 @keyframes lightSpeedOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        transform: translate3d(100%, 0, 0) skewX(30deg);
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
 }
 .lightSpeedOut {
-    animation-name: lightSpeedOut;
-    animation-timing-function: ease-in;
+  animation-name: lightSpeedOut;
+  animation-timing-function: ease-in;
 }
 
 @keyframes rotateIn {
-    from {
-        transform-origin: center;
-        transform: rotate3d(0, 0, 1, -200deg);
-        opacity: 0;
-    }
-    to {
-        transform-origin: center;
-        transform: none;
-        opacity: 1;
-    }
+  from {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: center;
+    transform: none;
+    opacity: 1;
+  }
 }
 .rotateIn {
-    animation-name: rotateIn;
+  animation-name: rotateIn;
 }
 
 @keyframes rotateInDownLeft {
-    from {
-        transform-origin: left bottom;
-        transform: rotate3d(0, 0, 1, -45deg);
-        opacity: 0;
-    }
-    to {
-        transform-origin: left bottom;
-        transform: none;
-        opacity: 1;
-    }
+  from {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
 }
 .rotateInDownLeft {
-    animation-name: rotateInDownLeft;
+  animation-name: rotateInDownLeft;
 }
 
 @keyframes rotateInDownRight {
-    from {
-        transform-origin: right bottom;
-        transform: rotate3d(0, 0, 1, 45deg);
-        opacity: 0;
-    }
-    to {
-        transform-origin: right bottom;
-        transform: none;
-        opacity: 1;
-    }
+  from {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+  }
 }
 .rotateInDownRight {
-    animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
 }
 
 @keyframes rotateInUpLeft {
-    from {
-        transform-origin: left bottom;
-        transform: rotate3d(0, 0, 1, 45deg);
-        opacity: 0;
-    }
-    to {
-        transform-origin: left bottom;
-        transform: none;
-        opacity: 1;
-    }
+  from {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
 }
 .rotateInUpLeft {
-    animation-name: rotateInUpLeft;
+  animation-name: rotateInUpLeft;
 }
 
 @keyframes rotateInUpRight {
-    from {
-        transform-origin: right bottom;
-        transform: rotate3d(0, 0, 1, -90deg);
-        opacity: 0;
-    }
-    to {
-        transform-origin: right bottom;
-        transform: none;
-        opacity: 1;
-    }
+  from {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+  }
 }
 .rotateInUpRight {
-    animation-name: rotateInUpRight;
+  animation-name: rotateInUpRight;
 }
 
 @keyframes rotateOut {
-    from {
-        transform-origin: center;
-        opacity: 1;
-    }
-    to {
-        transform-origin: center;
-        transform: rotate3d(0, 0, 1, 200deg);
-        opacity: 0;
-    }
+  from {
+    transform-origin: center;
+    opacity: 1;
+  }
+  to {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, 200deg);
+    opacity: 0;
+  }
 }
 .rotateOut {
-    animation-name: rotateOut;
+  animation-name: rotateOut;
 }
 
 @keyframes rotateOutDownLeft {
-    from {
-        transform-origin: left bottom;
-        opacity: 1;
-    }
-    to {
-        transform-origin: left bottom;
-        transform: rotate3d(0, 0, 1, 45deg);
-        opacity: 0;
-    }
+  from {
+    transform-origin: left bottom;
+    opacity: 1;
+  }
+  to {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
 }
 .rotateOutDownLeft {
-    animation-name: rotateOutDownLeft;
+  animation-name: rotateOutDownLeft;
 }
 
 @keyframes rotateOutDownRight {
-    from {
-        transform-origin: right bottom;
-        opacity: 1;
-    }
-    to {
-        transform-origin: right bottom;
-        transform: rotate3d(0, 0, 1, -45deg);
-        opacity: 0;
-    }
+  from {
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+  to {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
 }
 .rotateOutDownRight {
-    animation-name: rotateOutDownRight;
+  animation-name: rotateOutDownRight;
 }
 
 @keyframes rotateOutUpLeft {
-    from {
-        transform-origin: left bottom;
-        opacity: 1;
-    }
-    to {
-        transform-origin: left bottom;
-        transform: rotate3d(0, 0, 1, -45deg);
-        opacity: 0;
-    }
+  from {
+    transform-origin: left bottom;
+    opacity: 1;
+  }
+  to {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
 }
 .rotateOutUpLeft {
-    animation-name: rotateOutUpLeft;
+  animation-name: rotateOutUpLeft;
 }
 
 @keyframes rotateOutUpRight {
-    from {
-        transform-origin: right bottom;
-        opacity: 1;
-    }
-    to {
-        transform-origin: right bottom;
-        transform: rotate3d(0, 0, 1, 90deg);
-        opacity: 0;
-    }
+  from {
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+  to {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 0;
+  }
 }
 .rotateOutUpRight {
-    animation-name: rotateOutUpRight;
+  animation-name: rotateOutUpRight;
 }
 
 @keyframes hinge {
-    0% {
-        transform-origin: top left;
-        animation-timing-function: ease-in-out;
-    }
-    20%, 60% {
-        transform: rotate3d(0, 0, 1, 80deg);
-        transform-origin: top left;
-        animation-timing-function: ease-in-out;
-    }
-    40%, 80% {
-        transform: rotate3d(0, 0, 1, 60deg);
-        transform-origin: top left;
-        animation-timing-function: ease-in-out;
-        opacity: 1;
-    }
-    to {
-        transform: translate3d(0, 700px, 0);
-        opacity: 0;
-    }
+  0% {
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  20%, 60% {
+    transform: rotate3d(0, 0, 1, 80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+  40%, 80% {
+    transform: rotate3d(0, 0, 1, 60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(0, 700px, 0);
+    opacity: 0;
+  }
 }
 .hinge {
-    animation-name: hinge;
+  animation-name: hinge;
 }
 
 @keyframes jackInTheBox {
-    from {
-        opacity: 0;
-        transform: scale(0.1) rotate(30deg);
-        transform-origin: center bottom;
-    }
-    50% {
-        transform: rotate(-10deg);
-    }
-    70% {
-        transform: rotate(3deg);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 .jackInTheBox {
-    animation-name: jackInTheBox;
+  animation-name: jackInTheBox;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @keyframes rollIn {
-    from {
-        opacity: 0;
-        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .rollIn {
-    animation-name: rollIn;
+  animation-name: rollIn;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @keyframes rollOut {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
 }
 .rollOut {
-    animation-name: rollOut;
+  animation-name: rollOut;
 }
 
 @keyframes zoomIn {
-    from {
-        opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
-    }
-    50% {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
 }
 .zoomIn {
-    animation-name: zoomIn;
+  animation-name: zoomIn;
 }
 
 @keyframes zoomInDown {
-    from {
-        opacity: 0;
-        transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
-        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    }
-    60% {
-        opacity: 1;
-        transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    }
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
 }
 .zoomInDown {
-    animation-name: zoomInDown;
+  animation-name: zoomInDown;
 }
 
 @keyframes zoomInLeft {
-    from {
-        opacity: 0;
-        transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
-        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    }
-    60% {
-        opacity: 1;
-        transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    }
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
 }
 .zoomInLeft {
-    animation-name: zoomInLeft;
+  animation-name: zoomInLeft;
 }
 
 @keyframes zoomInRight {
-    from {
-        opacity: 0;
-        transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
-        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    }
-    60% {
-        opacity: 1;
-        transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    }
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
 }
 .zoomInRight {
-    animation-name: zoomInRight;
+  animation-name: zoomInRight;
 }
 
 @keyframes zoomInUp {
-    from {
-        opacity: 0;
-        transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
-        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    }
-    60% {
-        opacity: 1;
-        transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    }
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
 }
 .zoomInUp {
-    animation-name: zoomInUp;
+  animation-name: zoomInUp;
 }
 
 @keyframes zoomOut {
-    from {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 0;
+  }
 }
 .zoomOut {
-    animation-name: zoomOut;
+  animation-name: zoomOut;
 }
 
 @keyframes zoomOutDown {
-    40% {
-        opacity: 1;
-        transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
-        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    }
-    to {
-        opacity: 0;
-        transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
-        transform-origin: center bottom;
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    }
+  40% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
 }
 .zoomOutDown {
-    animation-name: zoomOutDown;
+  animation-name: zoomOutDown;
 }
 
 @keyframes zoomOutLeft {
-    40% {
-        opacity: 1;
-        transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
-    }
-    to {
-        opacity: 0;
-        transform: scale(0.1) translate3d(-2000px, 0, 0);
-        transform-origin: left center;
-    }
+  40% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+    transform-origin: left center;
+  }
 }
 .zoomOutLeft {
-    animation-name: zoomOutLeft;
+  animation-name: zoomOutLeft;
 }
 
 @keyframes zoomOutRight {
-    40% {
-        opacity: 1;
-        transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
-    }
-    to {
-        opacity: 0;
-        transform: scale(0.1) translate3d(2000px, 0, 0);
-        transform-origin: right center;
-    }
+  40% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.1) translate3d(2000px, 0, 0);
+    transform-origin: right center;
+  }
 }
 .zoomOutRight {
-    animation-name: zoomOutRight;
+  animation-name: zoomOutRight;
 }
 
 @keyframes zoomOutUp {
-    40% {
-        opacity: 1;
-        transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    }
-    to {
-        opacity: 0;
-        transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
-        transform-origin: center bottom;
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    }
+  40% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
 }
 .zoomOutUp {
-    animation-name: zoomOutUp;
+  animation-name: zoomOutUp;
 }
 
 @keyframes slideInDown {
-    from {
-        transform: translate3d(0, -100%, 0);
-        visibility: visible;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-    }
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 .slideInDown {
-    animation-name: slideInDown;
+  animation-name: slideInDown;
 }
 
 @keyframes slideInLeft {
-    from {
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-    }
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 .slideInLeft {
-    animation-name: slideInLeft;
+  animation-name: slideInLeft;
 }
 
 @keyframes slideInRight {
-    from {
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-    }
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 .slideInRight {
-    animation-name: slideInRight;
+  animation-name: slideInRight;
 }
 
 @keyframes slideInUp {
-    from {
-        transform: translate3d(0, 100%, 0);
-        visibility: visible;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-    }
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 .slideInUp {
-    animation-name: slideInUp;
+  animation-name: slideInUp;
 }
 
 @keyframes slideOutDown {
-    from {
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        visibility: hidden;
-        transform: translate3d(0, 100%, 0);
-    }
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, 100%, 0);
+  }
 }
 .slideOutDown {
-    animation-name: slideOutDown;
+  animation-name: slideOutDown;
 }
 
 @keyframes slideOutLeft {
-    from {
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        visibility: hidden;
-        transform: translate3d(-100%, 0, 0);
-    }
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(-100%, 0, 0);
+  }
 }
 .slideOutLeft {
-    animation-name: slideOutLeft;
+  animation-name: slideOutLeft;
 }
 
 @keyframes slideOutRight {
-    from {
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        visibility: hidden;
-        transform: translate3d(100%, 0, 0);
-    }
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(100%, 0, 0);
+  }
 }
 .slideOutRight {
-    animation-name: slideOutRight;
+  animation-name: slideOutRight;
 }
 
 @keyframes slideOutUp {
-    from {
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        visibility: hidden;
-        transform: translate3d(0, -100%, 0);
-    }
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -100%, 0);
+  }
 }
 .slideOutUp {
-    animation-name: slideOutUp;
+  animation-name: slideOutUp;
 }
 
 /* Magnify https://codepen.io/akhbar/pen/Biupr */
 .magnify {
-    cursor: none;
+  cursor: none;
 }
 
 .magnify-native {
-    display: none;
+  display: none;
 }
 
 .magnify-large {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    border-radius: 100%;
-    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-    display: none;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 100%;
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  display: none;
 }
 
 .magnify-small {
-    display: block;
+  display: block;
 }
 
 .highlight {
-    background-color: #faf9f9;
-    border-radius: 3px;
-    margin: 0;
+  background-color: #faf9f9;
+  border-radius: 3px;
+  margin: 0;
 }
 
 .highlighter-rouge {
-    color: #e74b3c;
-    font-weight: 400;
-    border: 1px solid #607D8B;
-    border-radius: 3px;
-    padding: 0.1rem 0.5rem;
+  color: #e74b3c;
+  font-weight: 400;
+  border: 1px solid #607D8B;
+  border-radius: 3px;
+  padding: 0.1rem 0.5rem;
 }
 
 .highlight .hll {
-    background-color: #ffc;
+  background-color: #ffc;
 }
 
 .highlight .c {
-    color: #999;
+  color: #999;
 }
 
 /* Comment */
 .highlight .err {
-    color: #a00;
-    background-color: #faa;
+  color: #a00;
+  background-color: #faa;
 }
 
 /* Error */
 .highlight .k {
-    color: #069;
+  color: #069;
 }
 
 /* Keyword */
 .highlight .o {
-    color: #555;
+  color: #555;
 }
 
 /* Operator */
 .highlight .cm {
-    color: #09f;
-    font-style: italic;
+  color: #09f;
+  font-style: italic;
 }
 
 /* Comment.Multiline */
 .highlight .cp {
-    color: #099;
+  color: #099;
 }
 
 /* Comment.Preproc */
 .highlight .c1 {
-    color: #999;
+  color: #999;
 }
 
 /* Comment.Single */
 .highlight .cs {
-    color: #999;
+  color: #999;
 }
 
 /* Comment.Special */
 .highlight .gd {
-    background-color: #fcc;
-    border: 1px solid #c00;
+  background-color: #fcc;
+  border: 1px solid #c00;
 }
 
 /* Generic.Deleted */
 .highlight .ge {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* Generic.Emph */
 .highlight .gr {
-    color: #f00;
+  color: #f00;
 }
 
 /* Generic.Error */
 .highlight .gh {
-    color: #030;
+  color: #030;
 }
 
 /* Generic.Heading */
 .highlight .gi {
-    background-color: #cfc;
-    border: 1px solid #0c0;
+  background-color: #cfc;
+  border: 1px solid #0c0;
 }
 
 /* Generic.Inserted */
 .highlight .go {
-    color: #aaa;
+  color: #aaa;
 }
 
 /* Generic.Output */
 .highlight .gp {
-    color: #009;
+  color: #009;
 }
 
 /* Generic.Prompt */
 /* Generic.Strong */
 .highlight .gu {
-    color: #030;
+  color: #030;
 }
 
 /* Generic.Subheading */
 .highlight .gt {
-    color: #9c6;
+  color: #9c6;
 }
 
 /* Generic.Traceback */
 .highlight .kc {
-    color: #069;
+  color: #069;
 }
 
 /* Keyword.Constant */
 .highlight .kd {
-    color: #069;
+  color: #069;
 }
 
 /* Keyword.Declaration */
 .highlight .kn {
-    color: #069;
+  color: #069;
 }
 
 /* Keyword.Namespace */
 .highlight .kp {
-    color: #069;
+  color: #069;
 }
 
 /* Keyword.Pseudo */
 .highlight .kr {
-    color: #069;
+  color: #069;
 }
 
 /* Keyword.Reserved */
 .highlight .kt {
-    color: #078;
+  color: #078;
 }
 
 /* Keyword.Type */
 .highlight .m {
-    color: #f60;
+  color: #f60;
 }
 
 /* Literal.Number */
 .highlight .s {
-    color: #d44950;
+  color: #d44950;
 }
 
 /* Literal.String */
 .highlight .na {
-    color: #4f9fcf;
+  color: #4f9fcf;
 }
 
 /* Name.Attribute */
 .highlight .nb {
-    color: #366;
+  color: #366;
 }
 
 /* Name.Builtin */
 .highlight .nc {
-    color: #0a8;
+  color: #0a8;
 }
 
 /* Name.Class */
 .highlight .no {
-    color: #360;
+  color: #360;
 }
 
 /* Name.Constant */
 .highlight .nd {
-    color: #99f;
+  color: #99f;
 }
 
 /* Name.Decorator */
 .highlight .ni {
-    color: #999;
+  color: #999;
 }
 
 /* Name.Entity */
 .highlight .ne {
-    color: #c00;
+  color: #c00;
 }
 
 /* Name.Exception */
 .highlight .nf {
-    color: #c0f;
+  color: #c0f;
 }
 
 /* Name.Function */
 .highlight .nl {
-    color: #99f;
+  color: #99f;
 }
 
 /* Name.Label */
 .highlight .nn {
-    color: #0cf;
+  color: #0cf;
 }
 
 /* Name.Namespace */
 .highlight .nt {
-    color: #2f6f9f;
+  color: #2f6f9f;
 }
 
 /* Name.Tag */
 .highlight .nv {
-    color: #033;
+  color: #033;
 }
 
 /* Name.Variable */
 .highlight .ow {
-    color: #000;
+  color: #000;
 }
 
 /* Operator.Word */
 .highlight .w {
-    color: #bbb;
+  color: #bbb;
 }
 
 /* Text.Whitespace */
 .highlight .mf {
-    color: #f60;
+  color: #f60;
 }
 
 /* Literal.Number.Float */
 .highlight .mh {
-    color: #f60;
+  color: #f60;
 }
 
 /* Literal.Number.Hex */
 .highlight .mi {
-    color: #f60;
+  color: #f60;
 }
 
 /* Literal.Number.Integer */
 .highlight .mo {
-    color: #f60;
+  color: #f60;
 }
 
 /* Literal.Number.Oct */
 .highlight .sb {
-    color: #c30;
+  color: #c30;
 }
 
 /* Literal.String.Backtick */
 .highlight .sc {
-    color: #c30;
+  color: #c30;
 }
 
 /* Literal.String.Char */
 .highlight .sd {
-    color: #c30;
-    font-style: italic;
+  color: #c30;
+  font-style: italic;
 }
 
 /* Literal.String.Doc */
 .highlight .s2 {
-    color: #c30;
+  color: #c30;
 }
 
 /* Literal.String.Double */
 .highlight .se {
-    color: #c30;
+  color: #c30;
 }
 
 /* Literal.String.Escape */
 .highlight .sh {
-    color: #c30;
+  color: #c30;
 }
 
 /* Literal.String.Heredoc */
 .highlight .si {
-    color: #a00;
+  color: #a00;
 }
 
 /* Literal.String.Interpol */
 .highlight .sx {
-    color: #c30;
+  color: #c30;
 }
 
 /* Literal.String.Other */
 .highlight .sr {
-    color: #3aa;
+  color: #3aa;
 }
 
 /* Literal.String.Regex */
 .highlight .s1 {
-    color: #c30;
+  color: #c30;
 }
 
 /* Literal.String.Single */
 .highlight .ss {
-    color: #fc3;
+  color: #fc3;
 }
 
 /* Literal.String.Symbol */
 .highlight .bp {
-    color: #366;
+  color: #366;
 }
 
 /* Name.Builtin.Pseudo */
 .highlight .vc {
-    color: #033;
+  color: #033;
 }
 
 /* Name.Variable.Class */
 .highlight .vg {
-    color: #033;
+  color: #033;
 }
 
 /* Name.Variable.Global */
 .highlight .vi {
-    color: #033;
+  color: #033;
 }
 
 /* Name.Variable.Instance */
 .highlight .il {
-    color: #f60;
+  color: #f60;
 }
 
 /* Literal.Number.Integer.Long */
 .css .o,
 .css .o + .nt,
 .css .nt + .nt {
-    color: #999;
+  color: #999;
 }
 
 *, *::after, *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Lato", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    background-color: #440506;
-    margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #440506;
+  margin: 0;
 }
 
 p {
-    font-size: 1.1rem;
-    line-height: 1.75rem;
-    margin: 0 0 1.75rem;
-    color: #525c65;
-    font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  margin: 0 0 1.75rem;
+  color: #525c65;
+  font-weight: 400;
 }
 
 blockquote {
-    font-size: 1.2rem;
-    font-style: italic;
-    border-left: 3px solid #c25b6c;
-    padding-left: 2rem;
-    margin: 0 0 1.75rem;
-    color: #333333;
+  font-size: 1.2rem;
+  font-style: italic;
+  border-left: 3px solid #c25b6c;
+  padding-left: 2rem;
+  margin: 0 0 1.75rem;
+  color: #333333;
 }
 blockquote p {
-    color: #333333;
-    font-size: 1.2rem;
+  color: #333333;
+  font-size: 1.2rem;
 }
 
 .main_box {
-    border-radius: 0.5rem;
-    margin: 1rem 1rem 0 1rem;
-    background-color: #ffffff;
+  border-radius: 0.5rem;
+  margin: 1rem 1rem 0 1rem;
+  background-color: #ffffff;
 }
 
 ::-webkit-input-placeholder {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 ::-moz-placeholder {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 input[type=email], input[type=text], input[type=tel], textarea {
-    border: none;
-    border-radius: 0.3rem;
-    outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
 }
 
 cite {
-    color: #949494;
+  color: #949494;
 }
 
 .wrapper {
-    width: 1440px;
-    max-width: 90%;
-    margin: 0 auto;
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .button_back {
-    color: #ffffff;
-    font-size: 1.1rem;
-    text-decoration: none;
-    font-style: italic;
-    display: inline-block;
-    margin: 0.7rem 1rem;
-    padding-left: 0.5rem;
-    font-weight: 700;
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-style: italic;
+  display: inline-block;
+  margin: 0.7rem 1rem;
+  padding-left: 0.5rem;
+  font-weight: 700;
 }
 .button_back:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .cf::before, .cf::after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .cf::after {
-    clear: both;
+  clear: both;
 }
 
 .main_header {
-    border-radius: 0.5rem;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    z-index: 1;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  z-index: 1;
 }
 .main_header .logo {
-    color: #440506;
-    margin: 0;
-    font-size: 3rem;
-    text-decoration: none;
-    font-weight: 700;
+  color: #440506;
+  margin: 0;
+  font-size: 3rem;
+  text-decoration: none;
+  font-weight: 700;
 }
 .main_header nav a {
-    color: #440506;
-    text-decoration: none;
-    margin-left: 2rem;
+  color: #440506;
+  text-decoration: none;
+  margin-left: 2rem;
 }
 
 #banner {
-    position: relative;
+  position: relative;
 }
 #banner .content {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 #banner .content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-    height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
 }
 #banner .content .title, #banner .content .sub_title {
-    text-align: center;
-    color: #000000;
+  text-align: center;
+  color: #000000;
 }
 #banner .content .title {
-    font-size: 3.5rem;
-    margin: 2rem 0 1rem 0;
+  font-size: 3.5rem;
+  margin: 2rem 0 1rem 0;
 }
 #banner .content .sub_title {
-    font-weight: 400;
-    font-size: 1.35rem;
-    line-height: 2.5rem;
-    font-style: italic;
+  font-weight: 400;
+  font-size: 1.35rem;
+  line-height: 2.5rem;
+  font-style: italic;
 }
 
 .chapters {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 .chapters .chapter {
-    position: relative;
-    float: left;
-    width: 32.333%;
-    margin: 0 0.5% 1% 0.5%;
-    overflow: hidden;
-    transition: transform 0.4s;
+  position: relative;
+  float: left;
+  width: 32.333%;
+  margin: 0 0.5% 1% 0.5%;
+  overflow: hidden;
+  transition: transform 0.4s;
 }
 .chapters .chapter a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .chapters .chapter img {
-    width: 100%;
-    vertical-align: middle;
-    transition: all 0.4s;
+  width: 100%;
+  vertical-align: middle;
+  transition: all 0.4s;
 }
 .chapters .chapter img:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 .chapters .chapter_inner {
-    position: absolute;
-    left: 2.5%;
-    bottom: 10%;
+  position: absolute;
+  left: 2.5%;
+  bottom: 10%;
 }
 .chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title {
-    color: #ffffff;
+  color: #ffffff;
 }
 .chapters .chapter_inner .chapter_number {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
 }
 .chapters .chapter_inner .chapter_number::after {
-    content: "";
-    display: block;
-    width: 40px;
-    margin-top: 0.3rem;
-    border-top: 3px solid #c25b6c;
+  content: "";
+  display: block;
+  width: 40px;
+  margin-top: 0.3rem;
+  border-top: 3px solid #c25b6c;
 }
 .chapters .chapter_inner .chapter_title {
-    font-size: 1.75rem;
-    font-weight: 400;
-    margin: 0 0 0.5rem 0;
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem 0;
 }
 
 .pagination {
-    padding: 2rem 0 6rem;
-    text-align: center;
+  padding: 2rem 0 6rem;
+  text-align: center;
 }
 .pagination a, .pagination span {
-    padding: 0.5rem 1rem;
-    display: inline-block;
-    color: #6e6e6e;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  color: #6e6e6e;
 }
 .pagination a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .pagination a:hover {
-    color: #c0334a;
+  color: #c0334a;
 }
 .pagination .active {
-    border-bottom: 1px solid #6e6e6e;
+  border-bottom: 1px solid #6e6e6e;
 }
 .pagination .active:hover {
-    color: #6e6e6e;
+  color: #6e6e6e;
 }
 
 .top {
-    position: fixed;
-    bottom: 25px;
-    background-color: #333333;
-    border-radius: 0.3rem;
-    color: #ffffff;
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
-    line-height: 47px;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    right: -100px;
-    z-index: 10;
-    opacity: 0.5;
+  position: fixed;
+  bottom: 25px;
+  background-color: #333333;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 47px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  right: -100px;
+  z-index: 10;
+  opacity: 0.5;
 }
 .top i {
-    line-height: 0;
+  line-height: 0;
 }
 .top.up {
-    right: 30px;
+  right: 30px;
 }
 .top:hover {
-    color: #ffffff;
-    background-color: #c0334a;
-    opacity: 0.8;
+  color: #ffffff;
+  background-color: #c0334a;
+  opacity: 0.8;
+}
+
+.previous,
+.next {
+  position: absolute;
+  top: 400px;
+  background-color: #440506;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 30px;
+  width: 30px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+.previous i,
+.next i {
+  line-height: 0;
+}
+
+.previous:hover,
+.next:hover {
+  color: #ffffff;
+  background-color: #c0334a;
+  opacity: 0.8;
+}
+
+.previous {
+  left: 15%;
+}
+
+.next {
+  right: 15%;
 }
 
 .main_footer {
-    background-color: #440506;
+  background-color: #440506;
 }
 
 .social_footer {
-    padding: 3rem 0;
-    list-style: none;
-    margin: 0;
-    text-align: center;
-    border-bottom: 1px solid #333333;
+  padding: 3rem 0;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #333333;
 }
 .social_footer li {
-    display: inline-block;
-    margin-left: 0.5rem;
+  display: inline-block;
+  margin-left: 0.5rem;
 }
 .social_footer a {
-    color: #7b7b7b;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    margin: 0.3rem 0;
-    text-decoration: none;
-    font-size: 1.75rem;
-    border-radius: 0.3rem;
-    background-color: #ffffff;
-    transition: all 0.35s ease-in-out;
+  color: #7b7b7b;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem 0;
+  text-decoration: none;
+  font-size: 1.75rem;
+  border-radius: 0.3rem;
+  background-color: #ffffff;
+  transition: all 0.35s ease-in-out;
 }
 .social_footer a:hover {
-    background-color: #c0334a;
-    color: #ffffff;
+  background-color: #c0334a;
+  color: #ffffff;
 }
 
 .copyright {
-    padding: 1rem 0;
-    text-align: center;
+  padding: 1rem 0;
+  text-align: center;
 }
 .copyright p {
-    color: #ffffff;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    margin: 0;
+  color: #ffffff;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  margin: 0;
 }
 .copyright a {
-    text-decoration: none;
-    color: #c0334a;
-    transition: all 0.35s ease-in-out;
+  text-decoration: none;
+  color: #c0334a;
+  transition: all 0.35s ease-in-out;
 }
 .copyright a:hover {
-    color: rgba(192, 51, 74, 0.75);
+  color: rgba(192, 51, 74, 0.75);
 }
 
 .post_wrapper, .entry_content {
-    max-width: 600px;
-    padding: 0 1.85rem;
-    margin: 0 auto;
+  max-width: 600px;
+  padding: 0 1.85rem;
+  margin: 0 auto;
 }
 
 .post_content {
-    width: 600px;
-    max-width: 90%;
-    height: auto;
-    margin: 1rem auto 0;
+  width: 600px;
+  max-width: 90%;
+  height: auto;
+  margin: 1rem auto 0;
 }
 
 .post {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 .post header {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
 }
 .post header img {
-    width: 100%;
-    vertical-align: middle;
+  width: 100%;
+  vertical-align: middle;
 }
 .post header .post_description {
-    left: 0;
-    bottom: 0;
+  left: 0;
+  bottom: 0;
 }
 .post header .post_meta {
-    display: inline-block;
-    text-transform: uppercase;
-    padding: 0.5rem 1rem;
-    font-size: 1.1rem;
-    margin: 0;
-    color: #ffffff;
-    background-color: rgba(210, 84, 105, 0.4);
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin: 0;
+  color: #ffffff;
+  background-color: rgba(210, 84, 105, 0.4);
 }
 .post header .post_title {
-    padding: 1rem;
-    font-size: 2rem;
-    margin: 0;
-    background-color: rgba(192, 51, 74, 0.4);
-    color: #ffffff;
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 0;
+  background-color: rgba(192, 51, 74, 0.4);
+  color: #ffffff;
 }
 
 .post_footer {
-    padding: 2rem 0;
-    background-color: #ffffff;
-    border-top: 2px solid #6e6e6e;
+  padding: 2rem 0;
+  background-color: #ffffff;
+  border-top: 2px solid #6e6e6e;
 }
 .post_footer span {
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    color: #525c65;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #525c65;
 }
 .post_footer a {
-    text-decoration: none;
-    margin-left: 0.1rem;
-    margin-bottom: 0.3rem;
-    padding: 0.5rem 1rem;
-    color: #6e6e6e;
-    background-color: #e6e6e6;
-    display: inline-block;
-    transition: all 0.35s ease-in-out;
+  text-decoration: none;
+  margin-left: 0.1rem;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem 1rem;
+  color: #6e6e6e;
+  background-color: #e6e6e6;
+  display: inline-block;
+  transition: all 0.35s ease-in-out;
 }
 .post_footer a:hover {
-    background-color: #d25469;
-    color: #ffffff;
+  background-color: #d25469;
+  color: #ffffff;
 }
 .post_footer .post_share {
-    float: left;
+  float: left;
 }
 .post_footer .post_share a {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .about_box {
-    border-radius: 0.5rem;
-    width: 600px;
-    max-width: 90%;
-    margin: auto;
+  border-radius: 0.5rem;
+  width: 600px;
+  max-width: 90%;
+  margin: auto;
 }
 
 .about {
-    position: relative;
-    width: 100%;
-    background-color: #440506;
+  position: relative;
+  width: 100%;
+  background-color: #440506;
 }
 .about .author {
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 .about .author .author_image {
-    float: none;
-    display: block;
-    margin: 0 auto 1.75rem;
+  float: none;
+  display: block;
+  margin: 0 auto 1.75rem;
 }
 .about .author .author_info {
-    padding: 0;
-    text-align: center;
+  padding: 0;
+  text-align: center;
 }
 .about .about_social {
-    border-radius: 0.5rem;
-    padding-bottom: 1rem;
-    overflow: hidden;
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
 }
 .about .about_social .social_footer {
-    padding: 0;
-    margin: 0;
-    border: none;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 .about .about_social .social_footer a {
-    font-size: 1rem;
-    color: #440506;
-    background-color: #ffffff;
+  font-size: 1rem;
+  color: #440506;
+  background-color: #ffffff;
 }
 .about .about_social .social_footer a:hover {
-    color: #c0334a;
+  color: #c0334a;
 }
 
 .author {
-    padding: 2rem 0;
-    margin-bottom: 1.5rem;
-    background-color: #ffffff;
+  padding: 2rem 0;
+  margin-bottom: 1.5rem;
+  background-color: #ffffff;
 }
 .author .author_image {
-    float: left;
-    display: inline-block;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    margin-right: 2rem;
+  float: left;
+  display: inline-block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-right: 2rem;
 }
 .author .author_image img {
-    width: 100%;
+  width: 100%;
 }
 .author .author_info {
-    padding-left: 8rem;
+  padding-left: 8rem;
 }
 .author .author_info .author_name {
-    font-size: 2rem;
-    color: #000000;
+  font-size: 2rem;
+  color: #000000;
 }
 .author .author_info .author_title {
-    font-size: 1rem;
-    margin-top: 0;
-    color: #525c65;
+  font-size: 1rem;
+  margin-top: 0;
+  color: #525c65;
 }
 .author .author_info .author_title::before, .author .author_info .author_title::after {
-    content: " — ";
+  content: " — ";
 }
 .author .author_info p {
-    padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 .contact {
-    width: 100%;
-    height: 100vh;
-    min-height: 700px;
-    position: relative;
-    background-color: #440506;
-    overflow: auto;
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  position: relative;
+  background-color: #440506;
+  overflow: auto;
 }
 
 .container_contact {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 960px;
-    max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 960px;
+  max-width: 100%;
 }
 .container_contact .form_title {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 .container_contact .form_title::before, .container_contact .form_title::after {
-    content: " — ";
+  content: " — ";
 }
 .container_contact .form {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 .container_contact .form .form_group {
-    margin-top: 3rem;
-    text-align: center;
+  margin-top: 3rem;
+  text-align: center;
 }
 .container_contact .form input, .container_contact .form textarea {
-    width: 100%;
-    padding: 1rem;
-    background-color: #BF7F7F;
-    color: #ffffff;
-    font-weight: 300;
-    transition: all 0.35s ease-in-out;
+  width: 100%;
+  padding: 1rem;
+  background-color: #BF7F7F;
+  color: #ffffff;
+  font-weight: 300;
+  transition: all 0.35s ease-in-out;
 }
 .container_contact .form input:focus, .container_contact .form textarea:focus {
-    background-color: #c0334a;
+  background-color: #c0334a;
 }
 .container_contact .form .form_btn {
-    width: inherit;
-    color: #ffffff;
-    text-transform: uppercase;
-    outline: none;
-    border: none;
-    background-color: #BF7F7F;
-    padding: 1rem 3rem;
-    border-radius: 3rem;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+  width: inherit;
+  color: #ffffff;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  background-color: #BF7F7F;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .container_contact .form .form_btn:hover {
-    background-color: #c0334a;
-    color: #ffffff;
+  background-color: #c0334a;
+  color: #ffffff;
 }
 .container_contact .form .form_btn:active {
-    transform: translateY(2px);
+  transform: translateY(2px);
 }
 
 #banner,
@@ -2639,237 +2675,253 @@ cite {
 .post_content,
 .about,
 .contact {
-    animation-duration: 0.7s;
-    animation-fill-mode: both;
-    animation-name: fadeInDown;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
 }
 
 #banner,
 .main_header {
-    animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .page-content,
 .post_content,
 .about,
 .contact {
-    animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 @-webkit-keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 @keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 @media only screen and (max-width: 960px) {
-    .chapters {
-        padding: 2rem 0;
-    }
+  .chapters {
+    padding: 2rem 0;
+  }
 
-    .chapters .chapter {
-        width: 49%;
-        margin: 0 0.5% 1% 0.5%;
-    }
+  .chapters .chapter {
+    width: 49%;
+    margin: 0 0.5% 1% 0.5%;
+  }
+
+  .previous {
+    left: 5%;
+  }
+
+  .next {
+    right: 5%;
+  }
 }
 @media only screen and (max-width: 768px) {
-    #banner .content .title {
-        font-size: 2.5rem;
-        margin: 1rem 0 1rem 0;
-    }
+  #banner .content .title {
+    font-size: 2.5rem;
+    margin: 1rem 0 1rem 0;
+  }
 
-    #banner .content .sub_title {
-        font-size: 1.35rem;
-        line-height: 2rem;
-        font-style: italic;
-    }
+  #banner .content .sub_title {
+    font-size: 1.35rem;
+    line-height: 2rem;
+    font-style: italic;
+  }
 
-    .chapters .chapter_inner .chapter_number {
-        font-size: 0.7rem;
-        margin: 0 0 0.5rem 0;
-    }
+  .chapters .chapter_inner .chapter_number {
+    font-size: 0.7rem;
+    margin: 0 0 0.5rem 0;
+  }
 
-    .chapters .chapter_inner .chapter_title {
-        font-size: 1.35rem;
-        margin: 0 0 0.3rem 0;
-    }
+  .chapters .chapter_inner .chapter_title {
+    font-size: 1.35rem;
+    margin: 0 0 0.3rem 0;
+  }
 
-    .pagination {
-        padding: 2rem 0 6rem;
-    }
+  .previous {
+    left: 1.1rem;
+  }
 
-    .pagination a {
-        padding: 0.5rem 0.8rem;
-        margin-left: 1rem;
-    }
+  .next {
+    right: 1.1rem;
+  }
 
-    .newsletter {
-        padding: 2rem 0;
-    }
+  .pagination {
+    padding: 2rem 0 6rem;
+  }
 
-    .newsletter .newsletter_title {
-        font-size: 1.75rem;
-        margin: 0 0 0.8rem;
-    }
+  .pagination a {
+    padding: 0.5rem 0.8rem;
+    margin-left: 1rem;
+  }
 
-    .newsletter form {
-        width: 550px;
-    }
+  .newsletter {
+    padding: 2rem 0;
+  }
 
-    .newsletter form label {
-        font-size: 1.1rem;
-    }
+  .newsletter .newsletter_title {
+    font-size: 1.75rem;
+    margin: 0 0 0.8rem;
+  }
 
-    .newsletter form .newsletter_box {
-        padding: 2rem 0;
-    }
+  .newsletter form {
+    width: 550px;
+  }
 
-    .newsletter form .email_input {
-        width: 100%;
-        padding: 1rem 2.5rem;
-        border-radius: 2.5rem;
-        font-size: 0.9rem;
-    }
+  .newsletter form label {
+    font-size: 1.1rem;
+  }
 
-    .newsletter form .subscribe_btn {
-        width: 110px;
-        padding: 1.1rem;
-        font-size: 0.7rem;
-        top: 32px;
-    }
+  .newsletter form .newsletter_box {
+    padding: 2rem 0;
+  }
 
-    .social_footer {
-        padding: 2rem 0;
-    }
+  .newsletter form .email_input {
+    width: 100%;
+    padding: 1rem 2.5rem;
+    border-radius: 2.5rem;
+    font-size: 0.9rem;
+  }
 
-    .social_footer a {
-        padding: 0.5rem 1rem;
-        font-size: 1.35rem;
-        border-radius: 0.3rem;
-    }
+  .newsletter form .subscribe_btn {
+    width: 110px;
+    padding: 1.1rem;
+    font-size: 0.7rem;
+    top: 32px;
+  }
 
-    .copyright {
-        padding: 1rem 0;
-    }
+  .social_footer {
+    padding: 2rem 0;
+  }
 
-    .copyright p {
-        font-size: 0.7rem;
-    }
+  .social_footer a {
+    padding: 0.5rem 1rem;
+    font-size: 1.35rem;
+    border-radius: 0.3rem;
+  }
 
-    .post header .post_meta {
-        font-size: 0.8rem;
-    }
+  .copyright {
+    padding: 1rem 0;
+  }
 
-    .post header .post_title {
-        font-size: 1.6rem;
-    }
+  .copyright p {
+    font-size: 0.7rem;
+  }
 
-    .author .author_social span {
-        font-size: 0.7rem;
-    }
+  .post header .post_meta {
+    font-size: 0.8rem;
+  }
+
+  .post header .post_title {
+    font-size: 1.6rem;
+  }
+
+  .author .author_social span {
+    font-size: 0.7rem;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .chapters {
-        padding: 2rem 0;
-    }
+  .chapters {
+    padding: 2rem 0;
+  }
 
-    .chapters .chapter {
-        width: 99%;
-        margin: 0 0.5% 2% 0.5%;
-    }
+  .chapters .chapter {
+    width: 99%;
+    margin: 0 0.5% 2% 0.5%;
+  }
 
-    .copyright p {
-        font-size: 0.6rem;
-    }
+  .copyright p {
+    font-size: 0.6rem;
+  }
 
-    blockquote {
-        font-size: 1.1rem;
-        padding-left: 1rem;
-    }
+  blockquote {
+    font-size: 1.1rem;
+    padding-left: 1rem;
+  }
 
-    blockquote p {
-        font-size: 1.1rem;
-    }
+  blockquote p {
+    font-size: 1.1rem;
+  }
 
-    p {
-        font-size: 1rem;
-    }
+  p {
+    font-size: 1rem;
+  }
 }
 @media only screen and (max-width: 550px) {
-    .main_header .logo {
-        font-size: 2rem;
-    }
+  .main_header .logo {
+    font-size: 2rem;
+  }
 
-    .post header .post_meta {
-        padding: 0.3rem 1rem;
-        font-size: 0.5rem;
-    }
+  .post header .post_meta {
+    padding: 0.3rem 1rem;
+    font-size: 0.5rem;
+  }
 
-    .post header .post_title {
-        font-size: 1.3rem;
-    }
+  .post header .post_title {
+    font-size: 1.3rem;
+  }
 
-    .post_footer .post_share {
-        float: none;
-        margin-bottom: 0.5rem;
-    }
+  .post_footer .post_share {
+    float: none;
+    margin-bottom: 0.5rem;
+  }
 
-    .post_footer .post_tag {
-        float: none;
-    }
+  .post_footer .post_tag {
+    float: none;
+  }
 
-    .author .author_image {
-        float: none;
-        display: block;
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        margin: 0 auto 1.75rem;
-    }
+  .author .author_image {
+    float: none;
+    display: block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.75rem;
+  }
 
-    .author .author_info {
-        padding: 0;
-        text-align: center;
-    }
+  .author .author_info {
+    padding: 0;
+    text-align: center;
+  }
 
-    .author .author_info .author_title {
-        font-size: 1.2rem;
-        margin-top: 0;
-    }
+  .author .author_info .author_title {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
 
-    .author .author_social span {
-        display: inline-block;
-        padding-right: 0.5rem;
-        margin: 0 0.5rem 0.5rem 0;
-    }
+  .author .author_social span {
+    display: inline-block;
+    padding-right: 0.5rem;
+    margin: 0 0.5rem 0.5rem 0;
+  }
 
-    .social_footer a {
-        padding: 0.3rem 0.8rem;
-        font-size: 1.1rem;
-    }
+  .social_footer a {
+    padding: 0.3rem 0.8rem;
+    font-size: 1.1rem;
+  }
 }
 @media only screen and (max-width: 320px) {
-    .post header .post_meta {
-        padding: 0.1rem 0.8rem;
-        font-size: 0.3rem;
-    }
+  .post header .post_meta {
+    padding: 0.1rem 0.8rem;
+    font-size: 0.3rem;
+  }
 
-    .post header .post_title {
-        padding: 0.8rem;
-        font-size: 1.2rem;
-    }
+  .post header .post_title {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+  }
 }
