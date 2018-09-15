@@ -12,6 +12,11 @@ $(document).ready(function () {
   $(".magnify-large").css("background", "url('" + $(".magnify-native").attr("src") + "') no-repeat");
 
   if ($(".magnify-small").length && image_ext.indexOf($(".magnify-small").attr('src').extension()) > -1) {
+
+    $(".magnify").mouseleave(function () {
+      $(".magnify-large").fadeOut(100);
+    });
+
     //Now the mousemove function
     $(".magnify").mousemove(function (e) {
 
@@ -62,7 +67,7 @@ $(document).ready(function () {
           $(".magnify-large").css({left: px, top: py, backgroundPosition: bgp});
         }
       }
-    })
+    });
   } else {
     $(".magnify").css('cursor', 'default');
   }
