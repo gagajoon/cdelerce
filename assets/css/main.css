@@ -2132,7 +2132,7 @@ template {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Verdana", sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #440506;
   margin: 0;
@@ -2260,6 +2260,11 @@ cite {
   font-size: 1.35rem;
   line-height: 2.5rem;
   font-style: italic;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .chapters {
@@ -2716,7 +2721,6 @@ cite {
   .chapters {
     padding: 2rem 0;
   }
-
   .chapters .chapter, .chapters .placeholder {
     width: 49%;
     margin: 0 0.5% 1% 0.5%;
@@ -2831,7 +2835,6 @@ cite {
   .chapters {
     padding: 2rem 0;
   }
-
   .chapters .chapter, .chapters .placeholder {
     width: 99%;
     margin: 0 0.5% 2% 0.5%;
