@@ -2265,7 +2265,6 @@ cite {
 .chapters {
   padding: 2rem 0;
 }
-
 .chapters .chapter, .chapters .placeholder {
   position: relative;
   float: left;
@@ -2274,11 +2273,9 @@ cite {
   overflow: hidden;
   transition: transform 0.4s;
 }
-
 .chapters .chapter a, .chapters .placeholder a {
   text-decoration: none;
 }
-
 .chapters .chapter img, .chapters .placeholder img {
   width: 100%;
   vertical-align: middle;
@@ -2719,7 +2716,8 @@ cite {
   .chapters {
     padding: 2rem 0;
   }
-  .chapters .chapter {
+
+  .chapters .chapter, .chapters .placeholder {
     width: 49%;
     margin: 0 0.5% 1% 0.5%;
   }
@@ -2815,6 +2813,9 @@ cite {
     font-size: 0.7rem;
   }
 
+  .post header {
+    min-height: 300px;
+  }
   .post header .post_meta {
     font-size: 0.8rem;
   }
@@ -2830,7 +2831,8 @@ cite {
   .chapters {
     padding: 2rem 0;
   }
-  .chapters .chapter {
+
+  .chapters .chapter, .chapters .placeholder {
     width: 99%;
     margin: 0 0.5% 2% 0.5%;
   }

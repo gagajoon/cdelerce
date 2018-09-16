@@ -1,21 +1,22 @@
-{% assign current = page %}
+{% assign current_previous = page %}
+{% assign current_next = page %}
 {% assign previous = '' %}
 {% assign next = '' %}
 
 {% for counter in (0..5) %}
 {% if previous == '' %}
-{% if current.previous.img %}
-{% assign previous = current.previous.url %}
+{% if current_previous.previous.img %}
+{% assign previous = current_previous.previous.url %}
 {% else %}
-{% assign current = current.previous %}
+{% assign current_previous = current_previous.previous %}
 {% endif %}
 {% endif %}
 
 {% if next == '' %}
-{% if current.next.img %}
-{% assign next = current.next.url %}
+{% if current_next.next.img %}
+{% assign next = current_next.next.url %}
 {% else %}
-{% assign current = current.next %}
+{% assign current_next = current_next.next %}
 {% endif %}
 {% endif %}
 {% endfor %}
