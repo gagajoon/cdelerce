@@ -1,0 +1,28 @@
+{% assign current = page %}
+{% assign previous = '' %}
+{% assign next = '' %}
+
+{% for counter in (0..5) %}
+{% if previous == '' %}
+{% if current.previous.img %}
+{% assign previous = current.previous.url %}
+{% else %}
+{% assign current = current.previous %}
+{% endif %}
+{% endif %}
+
+{% if next == '' %}
+{% if current.next.img %}
+{% assign next = current.next.url %}
+{% else %}
+{% assign current = current.next %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% if previous != '' %}
+<a href="{{previous}}" class="next" title="Next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+{% endif %}
+{% if next != '' %}
+<a href="{{next}}" class="previous" title="Previous"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+{% endif %}

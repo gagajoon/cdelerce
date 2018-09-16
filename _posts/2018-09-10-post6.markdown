@@ -2,5 +2,6 @@
 layout: post
 title: Sisley- Fred Farré
 img: img006.jpg
+img_low: img006.jpg
 ---
 Chic Paris

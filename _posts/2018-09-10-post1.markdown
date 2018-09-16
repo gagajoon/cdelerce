@@ -2,5 +2,6 @@
 layout: post
 title: Essie-Isabelle Bonjean
 img: img001.jpg
+img_low: img001.jpg
 ---
 Chic Paris

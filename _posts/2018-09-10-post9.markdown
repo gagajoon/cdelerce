@@ -2,5 +2,6 @@
 layout: post
 title: YSL-Mary Rozzi
 img: img004.jpg
+img_low: img004.jpg
 ---
 Chic Paris

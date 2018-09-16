@@ -3,12 +3,7 @@ layout: default
 ---
 <section class="main_box">
 {% include header.html %}
-	{% if page.previous.url %}
-	<a href="{{page.previous.url}}" class="next" title="Next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-	{% endif %}
-	{% if page.next.url %}
-	<a href="{{page.next.url}}" class="previous" title="Previous"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-	{% endif %}
+	{% include prev_next.html %}
 	<main class="post_content">
 		<article class="post">
 			<header>

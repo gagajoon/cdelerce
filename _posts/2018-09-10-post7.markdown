@@ -2,6 +2,7 @@
 layout: post
 title: Sisley- Fred Farré
 img: img007.jpg
+img_low: img007.jpg
 ---
 Chic Paris
 

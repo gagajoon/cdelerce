@@ -10,6 +10,3 @@ $(window).scroll(function () {
   }
 });
 
-// Previous
-
-// Next
