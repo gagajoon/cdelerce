@@ -2385,7 +2385,7 @@ cite {
 }
 .previous i,
 .next i {
-  line-height: 0;
+  line-height: 2em;
 }
 .previous:hover,
 .next:hover {

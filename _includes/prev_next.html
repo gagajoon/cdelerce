@@ -22,8 +22,8 @@
 {% endfor %}
 
 {% if previous != '' %}
-<a href="{{previous  | prepend: site.baseurl}}" class="next" title="Next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+<a href="{{previous | prepend: site.baseurl}}" class="next" title="Next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 {% endif %}
 {% if next != '' %}
-<a href="{{next}}  | prepend: site.baseurl" class="previous" title="Previous"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+<a href="{{next | prepend: site.baseurl}}" class="previous" title="Previous"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
 {% endif %}
