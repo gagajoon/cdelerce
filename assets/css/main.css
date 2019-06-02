@@ -2214,7 +2214,7 @@ cite {
 
 .main_header {
   border-radius: 0.5rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2229,10 +2229,10 @@ cite {
   font-weight: 700;
 }
 .main_header nav a {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #440506;
   text-decoration: none;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 #banner {
