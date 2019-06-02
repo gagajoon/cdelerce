@@ -1,7 +1,7 @@
 # This is my presentation gallery
 
 Powered by GitHug pages, Jekyll and [Bef Theme](https://artemsheludko.github.io/bef/).  
-Check it https://gagajoon.github.io/cdelerce/
+Check it https://www.celiadelerce.com/
 
 # Dev usage
 install jekyll and sass  
