@@ -2,6 +2,6 @@
 layout: post
 title: Sephora- Thomas Paquet
 img: img002.jpg
-img_low: img002.jpg
+img_gallery: img002.jpg
 ---
 Chic Paris

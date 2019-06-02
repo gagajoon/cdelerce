@@ -2,6 +2,6 @@
 layout: post
 title: Vogue-UK
 img: img005.jpg
-img_low: img005.jpg
+img_gallery: img005.jpg
 ---
 Herve Haddad

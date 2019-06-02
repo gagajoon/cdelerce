@@ -2,6 +2,6 @@
 layout: post
 title: Make it work
 img: 
-img_low: make-it-work.jpg
+img_gallery: make-it-work.jpg
 ---
 

@@ -1,8 +1,4 @@
-DONE -Faire un cadre "fond" bordeaux
-DONE -Changer couleur fond about
-DONE -reparer email
-DONE -previous/next
-DONE -gérer les placeholder
--espacement egal // toutes les images
--ajouter dns
+-choisir taille des images de gallery
+-choisir si passage à 3/2/1 image en largeur, ou toujours 3 redimmensionné
 -trouver la bonne police https://fonts.google.com/
+-ajouter dns

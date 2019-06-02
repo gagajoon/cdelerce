@@ -2,5 +2,5 @@
 layout: post
 title: HUSH- Nasser Mecili
 img: img003.jpg
-img_low: img003.jpg
+img_gallery: img003.jpg
 ---

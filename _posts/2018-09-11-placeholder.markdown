@@ -2,5 +2,5 @@
 layout: post
 title: LOVE
 img: 
-img_low: love-my-job.jpg
+img_gallery: love-my-job.jpg
 ---

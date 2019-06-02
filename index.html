@@ -6,12 +6,12 @@ layout: main
 {% if post.img %}
 <div class="chapter">
 	<a href="{{post.url | prepend: site.baseurl}}">
-		<img src={{ "/gallery/" | prepend: site.baseurl | append: post.img_low }} alt="{{post.title}}">
+		<img src={{ "/gallery/" | prepend: site.baseurl | append: post.img_gallery }} alt="{{post.title}}">
 	</a>
 </div>
 {% else %}
 <div class="placeholder">
-	<img src={{ "/gallery/" | prepend: site.baseurl | append: post.img_low }} alt="{{post.title}}">
+	<img src={{ "/gallery/" | prepend: site.baseurl | append: post.img_gallery }} alt="{{post.title}}">
 </div>
 {% endif %}
 {% endfor %}
