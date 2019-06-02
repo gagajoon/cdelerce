@@ -4,3 +4,6 @@
 
 # Jekyll
 _site
+
+# Sass
+assets/css/.sass-cache/
