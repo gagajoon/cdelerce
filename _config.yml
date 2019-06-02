@@ -1,8 +1,3 @@
-#Dev usage
-#install jekyll and sass
-#sass compilation: sass --sourcemap=none --style expanded assets/sass/main.sass assets/main.css
-#run jekyll local: jekyll serve
-
 logo: "CD" # add logo name
 title: Célia Delerce
 baseurl: "/cdelerce" # the subpath of your site, e.g. /blog

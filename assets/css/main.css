@@ -2132,7 +2132,7 @@ template {
 }
 
 body {
-  font-family: "Verdana", sans-serif;
+  font-family: "Indie Flower", cursive;
   -webkit-font-smoothing: antialiased;
   background-color: #440506;
   margin: 0;
@@ -2224,11 +2224,12 @@ cite {
 .main_header .logo {
   color: #440506;
   margin: 0;
-  font-size: 3rem;
+  font-size: 5rem;
   text-decoration: none;
   font-weight: 700;
 }
 .main_header nav a {
+  font-size: 1.8rem;
   color: #440506;
   text-decoration: none;
   margin-left: 2rem;
@@ -2252,13 +2253,13 @@ cite {
   color: #000000;
 }
 #banner .content .title {
-  font-size: 3.5rem;
+  font-size: 5rem;
   margin: 2rem 0 1rem 0;
 }
 #banner .content .sub_title {
   font-weight: 400;
-  font-size: 1.35rem;
-  line-height: 2.5rem;
+  font-size: 2rem;
+  line-height: 0.5rem;
   font-style: italic;
 }
 
@@ -2316,6 +2317,7 @@ cite {
 }
 
 .pagination {
+  font-size: 1.8rem;
   padding: 2rem 0 6rem;
   text-align: center;
 }
