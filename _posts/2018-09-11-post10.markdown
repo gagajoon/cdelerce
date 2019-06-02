@@ -4,4 +4,3 @@ title: LOVE
 img: 
 img_low: love-my-job.jpg
 ---
-Une super image love my job
