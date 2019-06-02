@@ -2,4 +2,4 @@
 
 Powered by GitHug pages, Jekyll and [Bef Theme](https://artemsheludko.github.io/bef/).
 
-Check it https://gagajoon.github.io/
+Check it https://gagajoon.github.io/cdelerce/
