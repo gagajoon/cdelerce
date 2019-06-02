@@ -1,7 +1,7 @@
 logo: "CD" # add logo name
 title: Célia Delerce
-baseurl: "/cdelerce" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.celiadelerce.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: # mountains.mp4 - add banner video. Add your video file to the folder video
